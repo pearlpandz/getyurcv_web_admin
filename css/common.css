@@ -1,0 +1,18 @@
+.error-error {
+	background: #ff0000b3;
+	padding: 15px;
+	border-radius: 3px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.alert-success  {
+	background: #00800099;
+	padding: 15px;
+	border-radius: 3px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
