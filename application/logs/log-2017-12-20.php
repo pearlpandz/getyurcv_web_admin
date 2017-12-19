@@ -12452,3 +12452,1124 @@ INFO - 2017-12-20 00:04:45 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\
 INFO - 2017-12-20 00:04:45 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/admin_template.php
 INFO - 2017-12-20 00:04:45 --> Final output sent to browser
 DEBUG - 2017-12-20 00:04:45 --> Total execution time: 0.6410
+INFO - 2017-12-20 00:08:22 --> Config Class Initialized
+INFO - 2017-12-20 00:08:22 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:08:22 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:08:22 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:08:22 --> URI Class Initialized
+DEBUG - 2017-12-20 00:08:22 --> No URI present. Default controller set.
+INFO - 2017-12-20 00:08:22 --> Router Class Initialized
+INFO - 2017-12-20 00:08:22 --> Output Class Initialized
+INFO - 2017-12-20 00:08:22 --> Security Class Initialized
+DEBUG - 2017-12-20 00:08:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:08:22 --> Input Class Initialized
+INFO - 2017-12-20 00:08:22 --> Language Class Initialized
+INFO - 2017-12-20 00:08:22 --> Loader Class Initialized
+INFO - 2017-12-20 00:08:22 --> Helper loaded: url_helper
+INFO - 2017-12-20 00:08:22 --> Helper loaded: global_helper
+INFO - 2017-12-20 00:08:22 --> Session: Class initialized using 'files' driver.
+INFO - 2017-12-20 00:08:22 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-12-20 00:08:22 --> Pagination Class Initialized
+INFO - 2017-12-20 00:08:22 --> Helper loaded: form_helper
+INFO - 2017-12-20 00:08:22 --> Form Validation Class Initialized
+INFO - 2017-12-20 00:08:22 --> Controller Class Initialized
+DEBUG - 2017-12-20 00:08:22 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-12-20 00:08:22 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-12-20 00:08:22 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/header.php
+INFO - 2017-12-20 00:08:22 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/user/signin.php
+INFO - 2017-12-20 00:08:22 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/footer.php
+INFO - 2017-12-20 00:08:22 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/admin_template.php
+INFO - 2017-12-20 00:08:22 --> Final output sent to browser
+DEBUG - 2017-12-20 00:08:22 --> Total execution time: 0.7770
+INFO - 2017-12-20 00:08:23 --> Config Class Initialized
+INFO - 2017-12-20 00:08:23 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:08:23 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:08:23 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:08:23 --> URI Class Initialized
+INFO - 2017-12-20 00:08:23 --> Router Class Initialized
+INFO - 2017-12-20 00:08:23 --> Output Class Initialized
+INFO - 2017-12-20 00:08:23 --> Security Class Initialized
+DEBUG - 2017-12-20 00:08:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:08:23 --> Input Class Initialized
+INFO - 2017-12-20 00:08:23 --> Language Class Initialized
+ERROR - 2017-12-20 00:08:23 --> 404 Page Not Found: Css/admin_login.css
+INFO - 2017-12-20 00:10:10 --> Config Class Initialized
+INFO - 2017-12-20 00:10:10 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:10:10 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:10:10 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:10:10 --> URI Class Initialized
+DEBUG - 2017-12-20 00:10:10 --> No URI present. Default controller set.
+INFO - 2017-12-20 00:10:10 --> Router Class Initialized
+INFO - 2017-12-20 00:10:10 --> Output Class Initialized
+INFO - 2017-12-20 00:10:10 --> Security Class Initialized
+DEBUG - 2017-12-20 00:10:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:10:10 --> Input Class Initialized
+INFO - 2017-12-20 00:10:10 --> Language Class Initialized
+INFO - 2017-12-20 00:10:10 --> Loader Class Initialized
+INFO - 2017-12-20 00:10:10 --> Helper loaded: url_helper
+INFO - 2017-12-20 00:10:10 --> Helper loaded: global_helper
+INFO - 2017-12-20 00:10:10 --> Session: Class initialized using 'files' driver.
+INFO - 2017-12-20 00:10:10 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-12-20 00:10:10 --> Pagination Class Initialized
+INFO - 2017-12-20 00:10:10 --> Helper loaded: form_helper
+INFO - 2017-12-20 00:10:10 --> Form Validation Class Initialized
+INFO - 2017-12-20 00:10:10 --> Controller Class Initialized
+DEBUG - 2017-12-20 00:10:10 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-12-20 00:10:10 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-12-20 00:10:10 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/header.php
+INFO - 2017-12-20 00:10:10 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/user/signin.php
+INFO - 2017-12-20 00:10:10 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/footer.php
+INFO - 2017-12-20 00:10:10 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/admin_template.php
+INFO - 2017-12-20 00:10:10 --> Final output sent to browser
+DEBUG - 2017-12-20 00:10:10 --> Total execution time: 0.6741
+INFO - 2017-12-20 00:10:11 --> Config Class Initialized
+INFO - 2017-12-20 00:10:11 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:10:11 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:10:11 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:10:11 --> URI Class Initialized
+INFO - 2017-12-20 00:10:11 --> Router Class Initialized
+INFO - 2017-12-20 00:10:11 --> Output Class Initialized
+INFO - 2017-12-20 00:10:11 --> Security Class Initialized
+DEBUG - 2017-12-20 00:10:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:10:11 --> Input Class Initialized
+INFO - 2017-12-20 00:10:11 --> Language Class Initialized
+ERROR - 2017-12-20 00:10:11 --> 404 Page Not Found: Css/admin_login.css
+INFO - 2017-12-20 00:10:11 --> Config Class Initialized
+INFO - 2017-12-20 00:10:11 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:10:11 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:10:11 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:10:11 --> URI Class Initialized
+INFO - 2017-12-20 00:10:11 --> Router Class Initialized
+INFO - 2017-12-20 00:10:11 --> Output Class Initialized
+INFO - 2017-12-20 00:10:11 --> Security Class Initialized
+DEBUG - 2017-12-20 00:10:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:10:11 --> Input Class Initialized
+INFO - 2017-12-20 00:10:12 --> Language Class Initialized
+ERROR - 2017-12-20 00:10:12 --> 404 Page Not Found: Css/admin_login.css
+INFO - 2017-12-20 00:16:01 --> Config Class Initialized
+INFO - 2017-12-20 00:16:01 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:16:01 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:16:01 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:16:01 --> URI Class Initialized
+DEBUG - 2017-12-20 00:16:01 --> No URI present. Default controller set.
+INFO - 2017-12-20 00:16:01 --> Router Class Initialized
+INFO - 2017-12-20 00:16:01 --> Output Class Initialized
+INFO - 2017-12-20 00:16:01 --> Security Class Initialized
+DEBUG - 2017-12-20 00:16:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:16:01 --> Input Class Initialized
+INFO - 2017-12-20 00:16:01 --> Language Class Initialized
+INFO - 2017-12-20 00:16:01 --> Loader Class Initialized
+INFO - 2017-12-20 00:16:01 --> Helper loaded: url_helper
+INFO - 2017-12-20 00:16:02 --> Helper loaded: global_helper
+INFO - 2017-12-20 00:16:02 --> Session: Class initialized using 'files' driver.
+INFO - 2017-12-20 00:16:02 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-12-20 00:16:02 --> Pagination Class Initialized
+INFO - 2017-12-20 00:16:02 --> Helper loaded: form_helper
+INFO - 2017-12-20 00:16:02 --> Form Validation Class Initialized
+INFO - 2017-12-20 00:16:02 --> Controller Class Initialized
+DEBUG - 2017-12-20 00:16:02 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-12-20 00:16:02 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-12-20 00:16:02 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/header.php
+INFO - 2017-12-20 00:16:02 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/user/signin.php
+INFO - 2017-12-20 00:16:02 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/footer.php
+INFO - 2017-12-20 00:16:02 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/admin_template.php
+INFO - 2017-12-20 00:16:02 --> Final output sent to browser
+DEBUG - 2017-12-20 00:16:02 --> Total execution time: 0.7800
+INFO - 2017-12-20 00:16:02 --> Config Class Initialized
+INFO - 2017-12-20 00:16:02 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:16:02 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:16:02 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:16:02 --> URI Class Initialized
+INFO - 2017-12-20 00:16:02 --> Router Class Initialized
+INFO - 2017-12-20 00:16:02 --> Output Class Initialized
+INFO - 2017-12-20 00:16:02 --> Security Class Initialized
+DEBUG - 2017-12-20 00:16:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:16:02 --> Input Class Initialized
+INFO - 2017-12-20 00:16:02 --> Language Class Initialized
+ERROR - 2017-12-20 00:16:02 --> 404 Page Not Found: Css/admin_login.css
+INFO - 2017-12-20 00:16:35 --> Config Class Initialized
+INFO - 2017-12-20 00:16:35 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:16:35 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:16:35 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:16:35 --> URI Class Initialized
+DEBUG - 2017-12-20 00:16:35 --> No URI present. Default controller set.
+INFO - 2017-12-20 00:16:35 --> Router Class Initialized
+INFO - 2017-12-20 00:16:35 --> Output Class Initialized
+INFO - 2017-12-20 00:16:35 --> Security Class Initialized
+DEBUG - 2017-12-20 00:16:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:16:36 --> Input Class Initialized
+INFO - 2017-12-20 00:16:36 --> Language Class Initialized
+INFO - 2017-12-20 00:16:36 --> Loader Class Initialized
+INFO - 2017-12-20 00:16:36 --> Helper loaded: url_helper
+INFO - 2017-12-20 00:16:36 --> Helper loaded: global_helper
+INFO - 2017-12-20 00:16:36 --> Session: Class initialized using 'files' driver.
+INFO - 2017-12-20 00:16:36 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-12-20 00:16:36 --> Pagination Class Initialized
+INFO - 2017-12-20 00:16:36 --> Helper loaded: form_helper
+INFO - 2017-12-20 00:16:36 --> Form Validation Class Initialized
+INFO - 2017-12-20 00:16:36 --> Controller Class Initialized
+DEBUG - 2017-12-20 00:16:36 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-12-20 00:16:36 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-12-20 00:16:36 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/header.php
+INFO - 2017-12-20 00:16:36 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/user/signin.php
+INFO - 2017-12-20 00:16:36 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/footer.php
+INFO - 2017-12-20 00:16:36 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/admin_template.php
+INFO - 2017-12-20 00:16:36 --> Final output sent to browser
+DEBUG - 2017-12-20 00:16:36 --> Total execution time: 0.7433
+INFO - 2017-12-20 00:16:36 --> Config Class Initialized
+INFO - 2017-12-20 00:16:36 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:16:36 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:16:36 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:16:36 --> URI Class Initialized
+INFO - 2017-12-20 00:16:36 --> Router Class Initialized
+INFO - 2017-12-20 00:16:36 --> Output Class Initialized
+INFO - 2017-12-20 00:16:36 --> Security Class Initialized
+DEBUG - 2017-12-20 00:16:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:16:37 --> Input Class Initialized
+INFO - 2017-12-20 00:16:37 --> Language Class Initialized
+ERROR - 2017-12-20 00:16:37 --> 404 Page Not Found: Css/admin_login.css
+INFO - 2017-12-20 00:16:59 --> Config Class Initialized
+INFO - 2017-12-20 00:17:00 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:17:00 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:17:00 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:17:00 --> URI Class Initialized
+INFO - 2017-12-20 00:17:00 --> Router Class Initialized
+INFO - 2017-12-20 00:17:00 --> Output Class Initialized
+INFO - 2017-12-20 00:17:00 --> Security Class Initialized
+DEBUG - 2017-12-20 00:17:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:17:00 --> Input Class Initialized
+INFO - 2017-12-20 00:17:00 --> Language Class Initialized
+ERROR - 2017-12-20 00:17:00 --> 404 Page Not Found: Css/admin_login.css
+INFO - 2017-12-20 00:17:23 --> Config Class Initialized
+INFO - 2017-12-20 00:17:23 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:17:23 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:17:23 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:17:23 --> URI Class Initialized
+DEBUG - 2017-12-20 00:17:23 --> No URI present. Default controller set.
+INFO - 2017-12-20 00:17:23 --> Router Class Initialized
+INFO - 2017-12-20 00:17:23 --> Output Class Initialized
+INFO - 2017-12-20 00:17:23 --> Security Class Initialized
+DEBUG - 2017-12-20 00:17:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:17:23 --> Input Class Initialized
+INFO - 2017-12-20 00:17:23 --> Language Class Initialized
+INFO - 2017-12-20 00:17:23 --> Loader Class Initialized
+INFO - 2017-12-20 00:17:23 --> Helper loaded: url_helper
+INFO - 2017-12-20 00:17:24 --> Helper loaded: global_helper
+INFO - 2017-12-20 00:17:24 --> Session: Class initialized using 'files' driver.
+INFO - 2017-12-20 00:17:24 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-12-20 00:17:24 --> Pagination Class Initialized
+INFO - 2017-12-20 00:17:24 --> Helper loaded: form_helper
+INFO - 2017-12-20 00:17:24 --> Form Validation Class Initialized
+INFO - 2017-12-20 00:17:24 --> Controller Class Initialized
+DEBUG - 2017-12-20 00:17:24 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-12-20 00:17:24 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-12-20 00:17:24 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/header.php
+INFO - 2017-12-20 00:17:24 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/user/signin.php
+INFO - 2017-12-20 00:17:24 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/footer.php
+INFO - 2017-12-20 00:17:24 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/admin_template.php
+INFO - 2017-12-20 00:17:24 --> Final output sent to browser
+DEBUG - 2017-12-20 00:17:24 --> Total execution time: 0.7071
+INFO - 2017-12-20 00:17:24 --> Config Class Initialized
+INFO - 2017-12-20 00:17:24 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:17:24 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:17:24 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:17:24 --> URI Class Initialized
+INFO - 2017-12-20 00:17:24 --> Router Class Initialized
+INFO - 2017-12-20 00:17:24 --> Output Class Initialized
+INFO - 2017-12-20 00:17:24 --> Security Class Initialized
+DEBUG - 2017-12-20 00:17:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:17:25 --> Input Class Initialized
+INFO - 2017-12-20 00:17:25 --> Language Class Initialized
+ERROR - 2017-12-20 00:17:25 --> 404 Page Not Found: Css/admin_login.css
+INFO - 2017-12-20 00:18:03 --> Config Class Initialized
+INFO - 2017-12-20 00:18:03 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:18:03 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:18:03 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:18:03 --> URI Class Initialized
+DEBUG - 2017-12-20 00:18:03 --> No URI present. Default controller set.
+INFO - 2017-12-20 00:18:03 --> Router Class Initialized
+INFO - 2017-12-20 00:18:03 --> Output Class Initialized
+INFO - 2017-12-20 00:18:03 --> Security Class Initialized
+DEBUG - 2017-12-20 00:18:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:18:03 --> Input Class Initialized
+INFO - 2017-12-20 00:18:03 --> Language Class Initialized
+INFO - 2017-12-20 00:18:03 --> Loader Class Initialized
+INFO - 2017-12-20 00:18:03 --> Helper loaded: url_helper
+INFO - 2017-12-20 00:18:03 --> Helper loaded: global_helper
+INFO - 2017-12-20 00:18:03 --> Session: Class initialized using 'files' driver.
+INFO - 2017-12-20 00:18:03 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-12-20 00:18:03 --> Pagination Class Initialized
+INFO - 2017-12-20 00:18:03 --> Helper loaded: form_helper
+INFO - 2017-12-20 00:18:03 --> Form Validation Class Initialized
+INFO - 2017-12-20 00:18:03 --> Controller Class Initialized
+DEBUG - 2017-12-20 00:18:03 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-12-20 00:18:03 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-12-20 00:18:03 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/header.php
+INFO - 2017-12-20 00:18:03 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/user/signin.php
+INFO - 2017-12-20 00:18:03 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/footer.php
+INFO - 2017-12-20 00:18:03 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/admin_template.php
+INFO - 2017-12-20 00:18:03 --> Final output sent to browser
+DEBUG - 2017-12-20 00:18:03 --> Total execution time: 0.7362
+INFO - 2017-12-20 00:18:03 --> Config Class Initialized
+INFO - 2017-12-20 00:18:03 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:18:03 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:18:04 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:18:04 --> URI Class Initialized
+INFO - 2017-12-20 00:18:04 --> Router Class Initialized
+INFO - 2017-12-20 00:18:04 --> Output Class Initialized
+INFO - 2017-12-20 00:18:04 --> Security Class Initialized
+DEBUG - 2017-12-20 00:18:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:18:04 --> Input Class Initialized
+INFO - 2017-12-20 00:18:04 --> Language Class Initialized
+ERROR - 2017-12-20 00:18:04 --> 404 Page Not Found: Css/admin_login.css
+INFO - 2017-12-20 00:18:17 --> Config Class Initialized
+INFO - 2017-12-20 00:18:17 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:18:17 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:18:17 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:18:17 --> URI Class Initialized
+INFO - 2017-12-20 00:18:17 --> Router Class Initialized
+INFO - 2017-12-20 00:18:17 --> Output Class Initialized
+INFO - 2017-12-20 00:18:17 --> Security Class Initialized
+DEBUG - 2017-12-20 00:18:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:18:17 --> Input Class Initialized
+INFO - 2017-12-20 00:18:17 --> Language Class Initialized
+INFO - 2017-12-20 00:18:17 --> Loader Class Initialized
+INFO - 2017-12-20 00:18:17 --> Helper loaded: url_helper
+INFO - 2017-12-20 00:18:17 --> Helper loaded: global_helper
+INFO - 2017-12-20 00:18:17 --> Session: Class initialized using 'files' driver.
+INFO - 2017-12-20 00:18:17 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-12-20 00:18:17 --> Pagination Class Initialized
+INFO - 2017-12-20 00:18:17 --> Helper loaded: form_helper
+INFO - 2017-12-20 00:18:17 --> Form Validation Class Initialized
+INFO - 2017-12-20 00:18:17 --> Controller Class Initialized
+DEBUG - 2017-12-20 00:18:17 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-12-20 00:18:17 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-12-20 00:18:17 --> Config Class Initialized
+INFO - 2017-12-20 00:18:17 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:18:17 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:18:17 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:18:17 --> URI Class Initialized
+INFO - 2017-12-20 00:18:18 --> Router Class Initialized
+INFO - 2017-12-20 00:18:18 --> Output Class Initialized
+INFO - 2017-12-20 00:18:18 --> Security Class Initialized
+DEBUG - 2017-12-20 00:18:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:18:18 --> Input Class Initialized
+INFO - 2017-12-20 00:18:18 --> Language Class Initialized
+INFO - 2017-12-20 00:18:18 --> Loader Class Initialized
+INFO - 2017-12-20 00:18:18 --> Helper loaded: url_helper
+INFO - 2017-12-20 00:18:18 --> Helper loaded: global_helper
+INFO - 2017-12-20 00:18:18 --> Session: Class initialized using 'files' driver.
+INFO - 2017-12-20 00:18:18 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-12-20 00:18:18 --> Pagination Class Initialized
+INFO - 2017-12-20 00:18:18 --> Helper loaded: form_helper
+INFO - 2017-12-20 00:18:18 --> Form Validation Class Initialized
+INFO - 2017-12-20 00:18:18 --> Controller Class Initialized
+DEBUG - 2017-12-20 00:18:18 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-12-20 00:18:18 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-12-20 00:18:18 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/header.php
+INFO - 2017-12-20 00:18:18 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/user/userlist.php
+INFO - 2017-12-20 00:18:18 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/footer.php
+INFO - 2017-12-20 00:18:18 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/admin_template.php
+INFO - 2017-12-20 00:18:18 --> Final output sent to browser
+DEBUG - 2017-12-20 00:18:18 --> Total execution time: 0.6488
+INFO - 2017-12-20 00:20:16 --> Config Class Initialized
+INFO - 2017-12-20 00:20:16 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:20:16 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:20:16 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:20:16 --> URI Class Initialized
+DEBUG - 2017-12-20 00:20:16 --> No URI present. Default controller set.
+INFO - 2017-12-20 00:20:16 --> Router Class Initialized
+INFO - 2017-12-20 00:20:16 --> Output Class Initialized
+INFO - 2017-12-20 00:20:16 --> Security Class Initialized
+DEBUG - 2017-12-20 00:20:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:20:16 --> Input Class Initialized
+INFO - 2017-12-20 00:20:16 --> Language Class Initialized
+INFO - 2017-12-20 00:20:16 --> Loader Class Initialized
+INFO - 2017-12-20 00:20:16 --> Helper loaded: url_helper
+INFO - 2017-12-20 00:20:16 --> Helper loaded: global_helper
+INFO - 2017-12-20 00:20:16 --> Session: Class initialized using 'files' driver.
+INFO - 2017-12-20 00:20:16 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-12-20 00:20:16 --> Pagination Class Initialized
+INFO - 2017-12-20 00:20:16 --> Helper loaded: form_helper
+INFO - 2017-12-20 00:20:16 --> Form Validation Class Initialized
+INFO - 2017-12-20 00:20:16 --> Controller Class Initialized
+DEBUG - 2017-12-20 00:20:16 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-12-20 00:20:16 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-12-20 00:20:17 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/header.php
+INFO - 2017-12-20 00:20:17 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/user/signin.php
+INFO - 2017-12-20 00:20:17 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/footer.php
+INFO - 2017-12-20 00:20:17 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/admin_template.php
+INFO - 2017-12-20 00:20:17 --> Final output sent to browser
+DEBUG - 2017-12-20 00:20:17 --> Total execution time: 0.7832
+INFO - 2017-12-20 00:22:50 --> Config Class Initialized
+INFO - 2017-12-20 00:22:50 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:22:50 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:22:50 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:22:50 --> URI Class Initialized
+DEBUG - 2017-12-20 00:22:50 --> No URI present. Default controller set.
+INFO - 2017-12-20 00:22:50 --> Router Class Initialized
+INFO - 2017-12-20 00:22:51 --> Output Class Initialized
+INFO - 2017-12-20 00:22:51 --> Security Class Initialized
+DEBUG - 2017-12-20 00:22:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:22:51 --> Input Class Initialized
+INFO - 2017-12-20 00:22:51 --> Language Class Initialized
+INFO - 2017-12-20 00:22:51 --> Loader Class Initialized
+INFO - 2017-12-20 00:22:51 --> Helper loaded: url_helper
+INFO - 2017-12-20 00:22:51 --> Helper loaded: global_helper
+INFO - 2017-12-20 00:22:51 --> Session: Class initialized using 'files' driver.
+INFO - 2017-12-20 00:22:51 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-12-20 00:22:51 --> Pagination Class Initialized
+INFO - 2017-12-20 00:22:51 --> Helper loaded: form_helper
+INFO - 2017-12-20 00:22:51 --> Form Validation Class Initialized
+INFO - 2017-12-20 00:22:51 --> Controller Class Initialized
+DEBUG - 2017-12-20 00:22:51 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-12-20 00:22:51 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-12-20 00:22:51 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/header.php
+INFO - 2017-12-20 00:22:51 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/user/signin.php
+INFO - 2017-12-20 00:22:51 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/footer.php
+INFO - 2017-12-20 00:22:51 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/admin_template.php
+INFO - 2017-12-20 00:22:51 --> Final output sent to browser
+DEBUG - 2017-12-20 00:22:51 --> Total execution time: 0.7867
+INFO - 2017-12-20 00:27:20 --> Config Class Initialized
+INFO - 2017-12-20 00:27:20 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:27:20 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:27:20 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:27:20 --> URI Class Initialized
+DEBUG - 2017-12-20 00:27:20 --> No URI present. Default controller set.
+INFO - 2017-12-20 00:27:20 --> Router Class Initialized
+INFO - 2017-12-20 00:27:20 --> Output Class Initialized
+INFO - 2017-12-20 00:27:20 --> Security Class Initialized
+DEBUG - 2017-12-20 00:27:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:27:20 --> Input Class Initialized
+INFO - 2017-12-20 00:27:20 --> Language Class Initialized
+INFO - 2017-12-20 00:27:20 --> Loader Class Initialized
+INFO - 2017-12-20 00:27:20 --> Helper loaded: url_helper
+INFO - 2017-12-20 00:27:20 --> Helper loaded: global_helper
+INFO - 2017-12-20 00:27:20 --> Session: Class initialized using 'files' driver.
+INFO - 2017-12-20 00:27:20 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-12-20 00:27:20 --> Pagination Class Initialized
+INFO - 2017-12-20 00:27:20 --> Helper loaded: form_helper
+INFO - 2017-12-20 00:27:20 --> Form Validation Class Initialized
+INFO - 2017-12-20 00:27:20 --> Controller Class Initialized
+DEBUG - 2017-12-20 00:27:20 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-12-20 00:27:20 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-12-20 00:27:20 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/header.php
+INFO - 2017-12-20 00:27:20 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/user/signin.php
+INFO - 2017-12-20 00:27:20 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/footer.php
+INFO - 2017-12-20 00:27:20 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/admin_template.php
+INFO - 2017-12-20 00:27:20 --> Final output sent to browser
+DEBUG - 2017-12-20 00:27:20 --> Total execution time: 0.7106
+INFO - 2017-12-20 00:27:45 --> Config Class Initialized
+INFO - 2017-12-20 00:27:45 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:27:45 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:27:45 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:27:45 --> URI Class Initialized
+DEBUG - 2017-12-20 00:27:45 --> No URI present. Default controller set.
+INFO - 2017-12-20 00:27:45 --> Router Class Initialized
+INFO - 2017-12-20 00:27:45 --> Output Class Initialized
+INFO - 2017-12-20 00:27:45 --> Security Class Initialized
+DEBUG - 2017-12-20 00:27:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:27:45 --> Input Class Initialized
+INFO - 2017-12-20 00:27:45 --> Language Class Initialized
+INFO - 2017-12-20 00:27:45 --> Loader Class Initialized
+INFO - 2017-12-20 00:27:45 --> Helper loaded: url_helper
+INFO - 2017-12-20 00:27:45 --> Helper loaded: global_helper
+INFO - 2017-12-20 00:27:45 --> Session: Class initialized using 'files' driver.
+INFO - 2017-12-20 00:27:45 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-12-20 00:27:45 --> Pagination Class Initialized
+INFO - 2017-12-20 00:27:45 --> Helper loaded: form_helper
+INFO - 2017-12-20 00:27:45 --> Form Validation Class Initialized
+INFO - 2017-12-20 00:27:45 --> Controller Class Initialized
+DEBUG - 2017-12-20 00:27:45 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-12-20 00:27:45 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-12-20 00:27:45 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/header.php
+INFO - 2017-12-20 00:27:45 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/user/signin.php
+INFO - 2017-12-20 00:27:45 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/footer.php
+INFO - 2017-12-20 00:27:45 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/admin_template.php
+INFO - 2017-12-20 00:27:46 --> Final output sent to browser
+DEBUG - 2017-12-20 00:27:46 --> Total execution time: 0.8075
+INFO - 2017-12-20 00:28:14 --> Config Class Initialized
+INFO - 2017-12-20 00:28:14 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:28:14 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:28:14 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:28:14 --> URI Class Initialized
+DEBUG - 2017-12-20 00:28:14 --> No URI present. Default controller set.
+INFO - 2017-12-20 00:28:14 --> Router Class Initialized
+INFO - 2017-12-20 00:28:14 --> Output Class Initialized
+INFO - 2017-12-20 00:28:14 --> Security Class Initialized
+DEBUG - 2017-12-20 00:28:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:28:14 --> Input Class Initialized
+INFO - 2017-12-20 00:28:14 --> Language Class Initialized
+INFO - 2017-12-20 00:28:14 --> Loader Class Initialized
+INFO - 2017-12-20 00:28:14 --> Helper loaded: url_helper
+INFO - 2017-12-20 00:28:14 --> Helper loaded: global_helper
+INFO - 2017-12-20 00:28:14 --> Session: Class initialized using 'files' driver.
+INFO - 2017-12-20 00:28:14 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-12-20 00:28:14 --> Pagination Class Initialized
+INFO - 2017-12-20 00:28:14 --> Helper loaded: form_helper
+INFO - 2017-12-20 00:28:14 --> Form Validation Class Initialized
+INFO - 2017-12-20 00:28:14 --> Controller Class Initialized
+DEBUG - 2017-12-20 00:28:14 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-12-20 00:28:14 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-12-20 00:28:14 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/header.php
+INFO - 2017-12-20 00:28:14 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/user/signin.php
+INFO - 2017-12-20 00:28:14 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/footer.php
+INFO - 2017-12-20 00:28:14 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/admin_template.php
+INFO - 2017-12-20 00:28:14 --> Final output sent to browser
+DEBUG - 2017-12-20 00:28:14 --> Total execution time: 0.6861
+INFO - 2017-12-20 00:30:26 --> Config Class Initialized
+INFO - 2017-12-20 00:30:26 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:30:26 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:30:26 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:30:26 --> URI Class Initialized
+DEBUG - 2017-12-20 00:30:26 --> No URI present. Default controller set.
+INFO - 2017-12-20 00:30:26 --> Router Class Initialized
+INFO - 2017-12-20 00:30:26 --> Output Class Initialized
+INFO - 2017-12-20 00:30:26 --> Security Class Initialized
+DEBUG - 2017-12-20 00:30:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:30:26 --> Input Class Initialized
+INFO - 2017-12-20 00:30:26 --> Language Class Initialized
+INFO - 2017-12-20 00:30:26 --> Loader Class Initialized
+INFO - 2017-12-20 00:30:26 --> Helper loaded: url_helper
+INFO - 2017-12-20 00:30:26 --> Helper loaded: global_helper
+INFO - 2017-12-20 00:30:26 --> Session: Class initialized using 'files' driver.
+INFO - 2017-12-20 00:30:26 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-12-20 00:30:26 --> Pagination Class Initialized
+INFO - 2017-12-20 00:30:26 --> Helper loaded: form_helper
+INFO - 2017-12-20 00:30:26 --> Form Validation Class Initialized
+INFO - 2017-12-20 00:30:26 --> Controller Class Initialized
+DEBUG - 2017-12-20 00:30:26 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-12-20 00:30:26 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-12-20 00:30:26 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/header.php
+INFO - 2017-12-20 00:30:26 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/user/signin.php
+INFO - 2017-12-20 00:30:27 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/footer.php
+INFO - 2017-12-20 00:30:27 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/admin_template.php
+INFO - 2017-12-20 00:30:27 --> Final output sent to browser
+DEBUG - 2017-12-20 00:30:27 --> Total execution time: 0.9543
+INFO - 2017-12-20 00:31:39 --> Config Class Initialized
+INFO - 2017-12-20 00:31:39 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:31:39 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:31:39 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:31:39 --> URI Class Initialized
+DEBUG - 2017-12-20 00:31:39 --> No URI present. Default controller set.
+INFO - 2017-12-20 00:31:39 --> Router Class Initialized
+INFO - 2017-12-20 00:31:39 --> Output Class Initialized
+INFO - 2017-12-20 00:31:39 --> Security Class Initialized
+DEBUG - 2017-12-20 00:31:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:31:39 --> Input Class Initialized
+INFO - 2017-12-20 00:31:39 --> Language Class Initialized
+INFO - 2017-12-20 00:31:39 --> Loader Class Initialized
+INFO - 2017-12-20 00:31:39 --> Helper loaded: url_helper
+INFO - 2017-12-20 00:31:39 --> Helper loaded: global_helper
+INFO - 2017-12-20 00:31:39 --> Session: Class initialized using 'files' driver.
+INFO - 2017-12-20 00:31:39 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-12-20 00:31:39 --> Pagination Class Initialized
+INFO - 2017-12-20 00:31:39 --> Helper loaded: form_helper
+INFO - 2017-12-20 00:31:39 --> Form Validation Class Initialized
+INFO - 2017-12-20 00:31:39 --> Controller Class Initialized
+DEBUG - 2017-12-20 00:31:39 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-12-20 00:31:39 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-12-20 00:31:40 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/header.php
+INFO - 2017-12-20 00:31:40 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/user/signin.php
+INFO - 2017-12-20 00:31:40 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/footer.php
+INFO - 2017-12-20 00:31:40 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/admin_template.php
+INFO - 2017-12-20 00:31:40 --> Final output sent to browser
+DEBUG - 2017-12-20 00:31:40 --> Total execution time: 0.6810
+INFO - 2017-12-20 00:32:48 --> Config Class Initialized
+INFO - 2017-12-20 00:32:48 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:32:48 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:32:48 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:32:48 --> URI Class Initialized
+DEBUG - 2017-12-20 00:32:48 --> No URI present. Default controller set.
+INFO - 2017-12-20 00:32:48 --> Router Class Initialized
+INFO - 2017-12-20 00:32:48 --> Output Class Initialized
+INFO - 2017-12-20 00:32:48 --> Security Class Initialized
+DEBUG - 2017-12-20 00:32:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:32:48 --> Input Class Initialized
+INFO - 2017-12-20 00:32:48 --> Language Class Initialized
+INFO - 2017-12-20 00:32:49 --> Loader Class Initialized
+INFO - 2017-12-20 00:32:49 --> Helper loaded: url_helper
+INFO - 2017-12-20 00:32:49 --> Helper loaded: global_helper
+INFO - 2017-12-20 00:32:49 --> Session: Class initialized using 'files' driver.
+INFO - 2017-12-20 00:32:49 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-12-20 00:32:49 --> Pagination Class Initialized
+INFO - 2017-12-20 00:32:49 --> Helper loaded: form_helper
+INFO - 2017-12-20 00:32:49 --> Form Validation Class Initialized
+INFO - 2017-12-20 00:32:49 --> Controller Class Initialized
+DEBUG - 2017-12-20 00:32:49 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-12-20 00:32:49 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-12-20 00:32:49 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/header.php
+INFO - 2017-12-20 00:32:49 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/user/signin.php
+INFO - 2017-12-20 00:32:49 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/footer.php
+INFO - 2017-12-20 00:32:49 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/admin_template.php
+INFO - 2017-12-20 00:32:49 --> Final output sent to browser
+DEBUG - 2017-12-20 00:32:49 --> Total execution time: 0.6868
+INFO - 2017-12-20 00:34:02 --> Config Class Initialized
+INFO - 2017-12-20 00:34:02 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:34:02 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:34:02 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:34:02 --> URI Class Initialized
+DEBUG - 2017-12-20 00:34:02 --> No URI present. Default controller set.
+INFO - 2017-12-20 00:34:02 --> Router Class Initialized
+INFO - 2017-12-20 00:34:02 --> Output Class Initialized
+INFO - 2017-12-20 00:34:02 --> Security Class Initialized
+DEBUG - 2017-12-20 00:34:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:34:02 --> Input Class Initialized
+INFO - 2017-12-20 00:34:02 --> Language Class Initialized
+INFO - 2017-12-20 00:34:02 --> Loader Class Initialized
+INFO - 2017-12-20 00:34:02 --> Helper loaded: url_helper
+INFO - 2017-12-20 00:34:02 --> Helper loaded: global_helper
+INFO - 2017-12-20 00:34:02 --> Session: Class initialized using 'files' driver.
+INFO - 2017-12-20 00:34:02 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-12-20 00:34:02 --> Pagination Class Initialized
+INFO - 2017-12-20 00:34:02 --> Helper loaded: form_helper
+INFO - 2017-12-20 00:34:02 --> Form Validation Class Initialized
+INFO - 2017-12-20 00:34:02 --> Controller Class Initialized
+DEBUG - 2017-12-20 00:34:02 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-12-20 00:34:02 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-12-20 00:34:02 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/header.php
+INFO - 2017-12-20 00:34:02 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/user/signin.php
+INFO - 2017-12-20 00:34:02 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/footer.php
+INFO - 2017-12-20 00:34:02 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/admin_template.php
+INFO - 2017-12-20 00:34:02 --> Final output sent to browser
+DEBUG - 2017-12-20 00:34:02 --> Total execution time: 0.6892
+INFO - 2017-12-20 00:35:17 --> Config Class Initialized
+INFO - 2017-12-20 00:35:17 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:35:17 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:35:17 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:35:17 --> URI Class Initialized
+DEBUG - 2017-12-20 00:35:17 --> No URI present. Default controller set.
+INFO - 2017-12-20 00:35:17 --> Router Class Initialized
+INFO - 2017-12-20 00:35:17 --> Output Class Initialized
+INFO - 2017-12-20 00:35:17 --> Security Class Initialized
+DEBUG - 2017-12-20 00:35:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:35:17 --> Input Class Initialized
+INFO - 2017-12-20 00:35:17 --> Language Class Initialized
+INFO - 2017-12-20 00:35:17 --> Loader Class Initialized
+INFO - 2017-12-20 00:35:17 --> Helper loaded: url_helper
+INFO - 2017-12-20 00:35:17 --> Helper loaded: global_helper
+INFO - 2017-12-20 00:35:17 --> Session: Class initialized using 'files' driver.
+INFO - 2017-12-20 00:35:17 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-12-20 00:35:17 --> Pagination Class Initialized
+INFO - 2017-12-20 00:35:17 --> Helper loaded: form_helper
+INFO - 2017-12-20 00:35:17 --> Form Validation Class Initialized
+INFO - 2017-12-20 00:35:17 --> Controller Class Initialized
+DEBUG - 2017-12-20 00:35:17 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-12-20 00:35:17 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-12-20 00:35:17 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/header.php
+INFO - 2017-12-20 00:35:17 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/user/signin.php
+INFO - 2017-12-20 00:35:17 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/footer.php
+INFO - 2017-12-20 00:35:17 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/admin_template.php
+INFO - 2017-12-20 00:35:17 --> Final output sent to browser
+DEBUG - 2017-12-20 00:35:17 --> Total execution time: 0.6899
+INFO - 2017-12-20 00:35:58 --> Config Class Initialized
+INFO - 2017-12-20 00:35:58 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:35:58 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:35:58 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:35:59 --> URI Class Initialized
+DEBUG - 2017-12-20 00:35:59 --> No URI present. Default controller set.
+INFO - 2017-12-20 00:35:59 --> Router Class Initialized
+INFO - 2017-12-20 00:35:59 --> Output Class Initialized
+INFO - 2017-12-20 00:35:59 --> Security Class Initialized
+DEBUG - 2017-12-20 00:35:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:35:59 --> Input Class Initialized
+INFO - 2017-12-20 00:35:59 --> Language Class Initialized
+INFO - 2017-12-20 00:35:59 --> Loader Class Initialized
+INFO - 2017-12-20 00:35:59 --> Helper loaded: url_helper
+INFO - 2017-12-20 00:35:59 --> Helper loaded: global_helper
+INFO - 2017-12-20 00:35:59 --> Session: Class initialized using 'files' driver.
+INFO - 2017-12-20 00:35:59 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-12-20 00:35:59 --> Pagination Class Initialized
+INFO - 2017-12-20 00:35:59 --> Helper loaded: form_helper
+INFO - 2017-12-20 00:35:59 --> Form Validation Class Initialized
+INFO - 2017-12-20 00:35:59 --> Controller Class Initialized
+DEBUG - 2017-12-20 00:35:59 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-12-20 00:35:59 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-12-20 00:35:59 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/header.php
+INFO - 2017-12-20 00:35:59 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/user/signin.php
+INFO - 2017-12-20 00:35:59 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/footer.php
+INFO - 2017-12-20 00:35:59 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/admin_template.php
+INFO - 2017-12-20 00:35:59 --> Final output sent to browser
+DEBUG - 2017-12-20 00:35:59 --> Total execution time: 0.7032
+INFO - 2017-12-20 00:37:11 --> Config Class Initialized
+INFO - 2017-12-20 00:37:11 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:37:11 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:37:11 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:37:11 --> URI Class Initialized
+DEBUG - 2017-12-20 00:37:12 --> No URI present. Default controller set.
+INFO - 2017-12-20 00:37:12 --> Router Class Initialized
+INFO - 2017-12-20 00:37:12 --> Output Class Initialized
+INFO - 2017-12-20 00:37:12 --> Security Class Initialized
+DEBUG - 2017-12-20 00:37:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:37:12 --> Input Class Initialized
+INFO - 2017-12-20 00:37:12 --> Language Class Initialized
+INFO - 2017-12-20 00:37:12 --> Loader Class Initialized
+INFO - 2017-12-20 00:37:12 --> Helper loaded: url_helper
+INFO - 2017-12-20 00:37:12 --> Helper loaded: global_helper
+INFO - 2017-12-20 00:37:12 --> Session: Class initialized using 'files' driver.
+INFO - 2017-12-20 00:37:12 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-12-20 00:37:12 --> Pagination Class Initialized
+INFO - 2017-12-20 00:37:12 --> Helper loaded: form_helper
+INFO - 2017-12-20 00:37:12 --> Form Validation Class Initialized
+INFO - 2017-12-20 00:37:12 --> Controller Class Initialized
+DEBUG - 2017-12-20 00:37:12 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-12-20 00:37:12 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-12-20 00:37:12 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/header.php
+INFO - 2017-12-20 00:37:12 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/user/signin.php
+INFO - 2017-12-20 00:37:12 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/footer.php
+INFO - 2017-12-20 00:37:12 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/admin_template.php
+INFO - 2017-12-20 00:37:12 --> Final output sent to browser
+DEBUG - 2017-12-20 00:37:12 --> Total execution time: 0.6967
+INFO - 2017-12-20 00:38:09 --> Config Class Initialized
+INFO - 2017-12-20 00:38:09 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:38:09 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:38:09 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:38:09 --> URI Class Initialized
+DEBUG - 2017-12-20 00:38:09 --> No URI present. Default controller set.
+INFO - 2017-12-20 00:38:09 --> Router Class Initialized
+INFO - 2017-12-20 00:38:09 --> Output Class Initialized
+INFO - 2017-12-20 00:38:09 --> Security Class Initialized
+DEBUG - 2017-12-20 00:38:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:38:09 --> Input Class Initialized
+INFO - 2017-12-20 00:38:09 --> Language Class Initialized
+INFO - 2017-12-20 00:38:09 --> Loader Class Initialized
+INFO - 2017-12-20 00:38:09 --> Helper loaded: url_helper
+INFO - 2017-12-20 00:38:09 --> Helper loaded: global_helper
+INFO - 2017-12-20 00:38:09 --> Session: Class initialized using 'files' driver.
+INFO - 2017-12-20 00:38:09 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-12-20 00:38:09 --> Pagination Class Initialized
+INFO - 2017-12-20 00:38:09 --> Helper loaded: form_helper
+INFO - 2017-12-20 00:38:09 --> Form Validation Class Initialized
+INFO - 2017-12-20 00:38:09 --> Controller Class Initialized
+DEBUG - 2017-12-20 00:38:09 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-12-20 00:38:09 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-12-20 00:38:09 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/header.php
+INFO - 2017-12-20 00:38:09 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/user/signin.php
+INFO - 2017-12-20 00:38:09 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/footer.php
+INFO - 2017-12-20 00:38:09 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/admin_template.php
+INFO - 2017-12-20 00:38:09 --> Final output sent to browser
+DEBUG - 2017-12-20 00:38:09 --> Total execution time: 0.6875
+INFO - 2017-12-20 00:43:08 --> Config Class Initialized
+INFO - 2017-12-20 00:43:08 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:43:08 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:43:08 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:43:08 --> URI Class Initialized
+DEBUG - 2017-12-20 00:43:08 --> No URI present. Default controller set.
+INFO - 2017-12-20 00:43:08 --> Router Class Initialized
+INFO - 2017-12-20 00:43:08 --> Output Class Initialized
+INFO - 2017-12-20 00:43:08 --> Security Class Initialized
+DEBUG - 2017-12-20 00:43:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:43:08 --> Input Class Initialized
+INFO - 2017-12-20 00:43:08 --> Language Class Initialized
+INFO - 2017-12-20 00:43:08 --> Loader Class Initialized
+INFO - 2017-12-20 00:43:08 --> Helper loaded: url_helper
+INFO - 2017-12-20 00:43:08 --> Helper loaded: global_helper
+INFO - 2017-12-20 00:43:08 --> Session: Class initialized using 'files' driver.
+INFO - 2017-12-20 00:43:08 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-12-20 00:43:08 --> Pagination Class Initialized
+INFO - 2017-12-20 00:43:08 --> Helper loaded: form_helper
+INFO - 2017-12-20 00:43:08 --> Form Validation Class Initialized
+INFO - 2017-12-20 00:43:08 --> Controller Class Initialized
+DEBUG - 2017-12-20 00:43:08 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-12-20 00:43:08 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-12-20 00:43:08 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/header.php
+INFO - 2017-12-20 00:43:08 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/user/signin.php
+INFO - 2017-12-20 00:43:08 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/footer.php
+INFO - 2017-12-20 00:43:08 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/admin_template.php
+INFO - 2017-12-20 00:43:08 --> Final output sent to browser
+DEBUG - 2017-12-20 00:43:08 --> Total execution time: 0.6875
+INFO - 2017-12-20 00:43:10 --> Config Class Initialized
+INFO - 2017-12-20 00:43:10 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:43:10 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:43:10 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:43:10 --> URI Class Initialized
+INFO - 2017-12-20 00:43:10 --> Router Class Initialized
+INFO - 2017-12-20 00:43:10 --> Output Class Initialized
+INFO - 2017-12-20 00:43:10 --> Security Class Initialized
+DEBUG - 2017-12-20 00:43:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:43:10 --> Input Class Initialized
+INFO - 2017-12-20 00:43:10 --> Language Class Initialized
+ERROR - 2017-12-20 00:43:10 --> 404 Page Not Found: Fonts/roboto
+INFO - 2017-12-20 00:43:11 --> Config Class Initialized
+INFO - 2017-12-20 00:43:11 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:43:11 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:43:11 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:43:11 --> URI Class Initialized
+INFO - 2017-12-20 00:43:11 --> Router Class Initialized
+INFO - 2017-12-20 00:43:12 --> Output Class Initialized
+INFO - 2017-12-20 00:43:12 --> Security Class Initialized
+DEBUG - 2017-12-20 00:43:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:43:12 --> Input Class Initialized
+INFO - 2017-12-20 00:43:12 --> Language Class Initialized
+ERROR - 2017-12-20 00:43:12 --> 404 Page Not Found: Fonts/roboto
+INFO - 2017-12-20 00:45:13 --> Config Class Initialized
+INFO - 2017-12-20 00:45:13 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:45:13 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:45:13 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:45:13 --> URI Class Initialized
+DEBUG - 2017-12-20 00:45:13 --> No URI present. Default controller set.
+INFO - 2017-12-20 00:45:13 --> Router Class Initialized
+INFO - 2017-12-20 00:45:13 --> Output Class Initialized
+INFO - 2017-12-20 00:45:13 --> Security Class Initialized
+DEBUG - 2017-12-20 00:45:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:45:13 --> Input Class Initialized
+INFO - 2017-12-20 00:45:14 --> Language Class Initialized
+INFO - 2017-12-20 00:45:14 --> Loader Class Initialized
+INFO - 2017-12-20 00:45:14 --> Helper loaded: url_helper
+INFO - 2017-12-20 00:45:14 --> Helper loaded: global_helper
+INFO - 2017-12-20 00:45:14 --> Session: Class initialized using 'files' driver.
+INFO - 2017-12-20 00:45:14 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-12-20 00:45:14 --> Pagination Class Initialized
+INFO - 2017-12-20 00:45:14 --> Helper loaded: form_helper
+INFO - 2017-12-20 00:45:14 --> Form Validation Class Initialized
+INFO - 2017-12-20 00:45:14 --> Controller Class Initialized
+DEBUG - 2017-12-20 00:45:14 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-12-20 00:45:14 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-12-20 00:45:14 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/header.php
+INFO - 2017-12-20 00:45:14 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/user/signin.php
+INFO - 2017-12-20 00:45:14 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/footer.php
+INFO - 2017-12-20 00:45:14 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/admin_template.php
+INFO - 2017-12-20 00:45:14 --> Final output sent to browser
+DEBUG - 2017-12-20 00:45:14 --> Total execution time: 0.6883
+INFO - 2017-12-20 00:45:15 --> Config Class Initialized
+INFO - 2017-12-20 00:45:15 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:45:15 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:45:15 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:45:15 --> URI Class Initialized
+INFO - 2017-12-20 00:45:15 --> Router Class Initialized
+INFO - 2017-12-20 00:45:15 --> Output Class Initialized
+INFO - 2017-12-20 00:45:15 --> Security Class Initialized
+DEBUG - 2017-12-20 00:45:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:45:15 --> Input Class Initialized
+INFO - 2017-12-20 00:45:15 --> Language Class Initialized
+ERROR - 2017-12-20 00:45:15 --> 404 Page Not Found: Fonts/roboto
+INFO - 2017-12-20 00:45:15 --> Config Class Initialized
+INFO - 2017-12-20 00:45:16 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:45:16 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:45:16 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:45:16 --> URI Class Initialized
+INFO - 2017-12-20 00:45:16 --> Router Class Initialized
+INFO - 2017-12-20 00:45:16 --> Output Class Initialized
+INFO - 2017-12-20 00:45:16 --> Security Class Initialized
+DEBUG - 2017-12-20 00:45:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:45:16 --> Input Class Initialized
+INFO - 2017-12-20 00:45:16 --> Language Class Initialized
+ERROR - 2017-12-20 00:45:16 --> 404 Page Not Found: Fonts/roboto
+INFO - 2017-12-20 00:45:37 --> Config Class Initialized
+INFO - 2017-12-20 00:45:37 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:45:37 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:45:37 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:45:37 --> URI Class Initialized
+DEBUG - 2017-12-20 00:45:37 --> No URI present. Default controller set.
+INFO - 2017-12-20 00:45:37 --> Router Class Initialized
+INFO - 2017-12-20 00:45:37 --> Output Class Initialized
+INFO - 2017-12-20 00:45:37 --> Security Class Initialized
+DEBUG - 2017-12-20 00:45:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:45:37 --> Input Class Initialized
+INFO - 2017-12-20 00:45:37 --> Language Class Initialized
+INFO - 2017-12-20 00:45:37 --> Loader Class Initialized
+INFO - 2017-12-20 00:45:37 --> Helper loaded: url_helper
+INFO - 2017-12-20 00:45:37 --> Helper loaded: global_helper
+INFO - 2017-12-20 00:45:37 --> Session: Class initialized using 'files' driver.
+INFO - 2017-12-20 00:45:37 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-12-20 00:45:37 --> Pagination Class Initialized
+INFO - 2017-12-20 00:45:37 --> Helper loaded: form_helper
+INFO - 2017-12-20 00:45:37 --> Form Validation Class Initialized
+INFO - 2017-12-20 00:45:37 --> Controller Class Initialized
+DEBUG - 2017-12-20 00:45:37 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-12-20 00:45:37 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-12-20 00:45:37 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/header.php
+INFO - 2017-12-20 00:45:37 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/user/signin.php
+INFO - 2017-12-20 00:45:37 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/footer.php
+INFO - 2017-12-20 00:45:37 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/admin_template.php
+INFO - 2017-12-20 00:45:37 --> Final output sent to browser
+DEBUG - 2017-12-20 00:45:37 --> Total execution time: 0.6913
+INFO - 2017-12-20 00:45:38 --> Config Class Initialized
+INFO - 2017-12-20 00:45:38 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:45:38 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:45:38 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:45:38 --> URI Class Initialized
+INFO - 2017-12-20 00:45:38 --> Router Class Initialized
+INFO - 2017-12-20 00:45:38 --> Output Class Initialized
+INFO - 2017-12-20 00:45:38 --> Security Class Initialized
+DEBUG - 2017-12-20 00:45:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:45:38 --> Input Class Initialized
+INFO - 2017-12-20 00:45:38 --> Language Class Initialized
+ERROR - 2017-12-20 00:45:38 --> 404 Page Not Found: Fonts/roboto
+INFO - 2017-12-20 00:45:39 --> Config Class Initialized
+INFO - 2017-12-20 00:45:39 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:45:39 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:45:39 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:45:39 --> URI Class Initialized
+INFO - 2017-12-20 00:45:39 --> Router Class Initialized
+INFO - 2017-12-20 00:45:39 --> Output Class Initialized
+INFO - 2017-12-20 00:45:39 --> Security Class Initialized
+DEBUG - 2017-12-20 00:45:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:45:39 --> Input Class Initialized
+INFO - 2017-12-20 00:45:39 --> Language Class Initialized
+ERROR - 2017-12-20 00:45:39 --> 404 Page Not Found: Fonts/roboto
+INFO - 2017-12-20 00:47:49 --> Config Class Initialized
+INFO - 2017-12-20 00:47:49 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:47:49 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:47:49 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:47:49 --> URI Class Initialized
+DEBUG - 2017-12-20 00:47:49 --> No URI present. Default controller set.
+INFO - 2017-12-20 00:47:50 --> Router Class Initialized
+INFO - 2017-12-20 00:47:50 --> Output Class Initialized
+INFO - 2017-12-20 00:47:50 --> Security Class Initialized
+DEBUG - 2017-12-20 00:47:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:47:50 --> Input Class Initialized
+INFO - 2017-12-20 00:47:50 --> Language Class Initialized
+INFO - 2017-12-20 00:47:50 --> Loader Class Initialized
+INFO - 2017-12-20 00:47:50 --> Helper loaded: url_helper
+INFO - 2017-12-20 00:47:50 --> Helper loaded: global_helper
+INFO - 2017-12-20 00:47:50 --> Session: Class initialized using 'files' driver.
+INFO - 2017-12-20 00:47:50 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-12-20 00:47:50 --> Pagination Class Initialized
+INFO - 2017-12-20 00:47:50 --> Helper loaded: form_helper
+INFO - 2017-12-20 00:47:50 --> Form Validation Class Initialized
+INFO - 2017-12-20 00:47:50 --> Controller Class Initialized
+DEBUG - 2017-12-20 00:47:50 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-12-20 00:47:50 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-12-20 00:47:50 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/header.php
+INFO - 2017-12-20 00:47:50 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/user/signin.php
+INFO - 2017-12-20 00:47:50 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/footer.php
+INFO - 2017-12-20 00:47:50 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/admin_template.php
+INFO - 2017-12-20 00:47:50 --> Final output sent to browser
+DEBUG - 2017-12-20 00:47:50 --> Total execution time: 0.8394
+INFO - 2017-12-20 00:47:51 --> Config Class Initialized
+INFO - 2017-12-20 00:47:51 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:47:51 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:47:51 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:47:51 --> URI Class Initialized
+INFO - 2017-12-20 00:47:51 --> Router Class Initialized
+INFO - 2017-12-20 00:47:51 --> Output Class Initialized
+INFO - 2017-12-20 00:47:52 --> Security Class Initialized
+DEBUG - 2017-12-20 00:47:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:47:52 --> Input Class Initialized
+INFO - 2017-12-20 00:47:52 --> Language Class Initialized
+ERROR - 2017-12-20 00:47:52 --> 404 Page Not Found: Fonts/roboto
+INFO - 2017-12-20 00:47:52 --> Config Class Initialized
+INFO - 2017-12-20 00:47:52 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:47:52 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:47:52 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:47:52 --> URI Class Initialized
+INFO - 2017-12-20 00:47:52 --> Router Class Initialized
+INFO - 2017-12-20 00:47:52 --> Output Class Initialized
+INFO - 2017-12-20 00:47:52 --> Security Class Initialized
+DEBUG - 2017-12-20 00:47:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:47:52 --> Input Class Initialized
+INFO - 2017-12-20 00:47:52 --> Language Class Initialized
+ERROR - 2017-12-20 00:47:52 --> 404 Page Not Found: Fonts/roboto
+INFO - 2017-12-20 00:48:28 --> Config Class Initialized
+INFO - 2017-12-20 00:48:28 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:48:28 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:48:28 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:48:28 --> URI Class Initialized
+DEBUG - 2017-12-20 00:48:28 --> No URI present. Default controller set.
+INFO - 2017-12-20 00:48:28 --> Router Class Initialized
+INFO - 2017-12-20 00:48:28 --> Output Class Initialized
+INFO - 2017-12-20 00:48:28 --> Security Class Initialized
+DEBUG - 2017-12-20 00:48:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:48:28 --> Input Class Initialized
+INFO - 2017-12-20 00:48:28 --> Language Class Initialized
+INFO - 2017-12-20 00:48:28 --> Loader Class Initialized
+INFO - 2017-12-20 00:48:29 --> Helper loaded: url_helper
+INFO - 2017-12-20 00:48:29 --> Helper loaded: global_helper
+INFO - 2017-12-20 00:48:29 --> Session: Class initialized using 'files' driver.
+INFO - 2017-12-20 00:48:29 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-12-20 00:48:29 --> Pagination Class Initialized
+INFO - 2017-12-20 00:48:29 --> Helper loaded: form_helper
+INFO - 2017-12-20 00:48:29 --> Form Validation Class Initialized
+INFO - 2017-12-20 00:48:29 --> Controller Class Initialized
+DEBUG - 2017-12-20 00:48:29 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-12-20 00:48:29 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-12-20 00:48:29 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/header.php
+INFO - 2017-12-20 00:48:29 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/user/signin.php
+INFO - 2017-12-20 00:48:29 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/footer.php
+INFO - 2017-12-20 00:48:29 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/admin_template.php
+INFO - 2017-12-20 00:48:29 --> Final output sent to browser
+DEBUG - 2017-12-20 00:48:29 --> Total execution time: 0.7047
+INFO - 2017-12-20 00:48:30 --> Config Class Initialized
+INFO - 2017-12-20 00:48:30 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:48:30 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:48:30 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:48:30 --> URI Class Initialized
+INFO - 2017-12-20 00:48:30 --> Router Class Initialized
+INFO - 2017-12-20 00:48:30 --> Output Class Initialized
+INFO - 2017-12-20 00:48:30 --> Security Class Initialized
+DEBUG - 2017-12-20 00:48:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:48:30 --> Input Class Initialized
+INFO - 2017-12-20 00:48:30 --> Language Class Initialized
+ERROR - 2017-12-20 00:48:30 --> 404 Page Not Found: Fonts/roboto
+INFO - 2017-12-20 00:48:31 --> Config Class Initialized
+INFO - 2017-12-20 00:48:31 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:48:31 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:48:31 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:48:31 --> URI Class Initialized
+INFO - 2017-12-20 00:48:31 --> Router Class Initialized
+INFO - 2017-12-20 00:48:31 --> Output Class Initialized
+INFO - 2017-12-20 00:48:31 --> Security Class Initialized
+DEBUG - 2017-12-20 00:48:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:48:31 --> Input Class Initialized
+INFO - 2017-12-20 00:48:31 --> Language Class Initialized
+ERROR - 2017-12-20 00:48:31 --> 404 Page Not Found: Fonts/roboto
+INFO - 2017-12-20 00:49:08 --> Config Class Initialized
+INFO - 2017-12-20 00:49:08 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:49:08 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:49:08 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:49:08 --> URI Class Initialized
+DEBUG - 2017-12-20 00:49:08 --> No URI present. Default controller set.
+INFO - 2017-12-20 00:49:08 --> Router Class Initialized
+INFO - 2017-12-20 00:49:08 --> Output Class Initialized
+INFO - 2017-12-20 00:49:08 --> Security Class Initialized
+DEBUG - 2017-12-20 00:49:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:49:08 --> Input Class Initialized
+INFO - 2017-12-20 00:49:09 --> Language Class Initialized
+INFO - 2017-12-20 00:49:09 --> Loader Class Initialized
+INFO - 2017-12-20 00:49:09 --> Helper loaded: url_helper
+INFO - 2017-12-20 00:49:09 --> Helper loaded: global_helper
+INFO - 2017-12-20 00:49:09 --> Session: Class initialized using 'files' driver.
+INFO - 2017-12-20 00:49:09 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-12-20 00:49:09 --> Pagination Class Initialized
+INFO - 2017-12-20 00:49:09 --> Helper loaded: form_helper
+INFO - 2017-12-20 00:49:09 --> Form Validation Class Initialized
+INFO - 2017-12-20 00:49:09 --> Controller Class Initialized
+DEBUG - 2017-12-20 00:49:09 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-12-20 00:49:09 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-12-20 00:49:09 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/header.php
+INFO - 2017-12-20 00:49:09 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/user/signin.php
+INFO - 2017-12-20 00:49:09 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/footer.php
+INFO - 2017-12-20 00:49:09 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/admin_template.php
+INFO - 2017-12-20 00:49:09 --> Final output sent to browser
+DEBUG - 2017-12-20 00:49:09 --> Total execution time: 0.7025
+INFO - 2017-12-20 00:49:10 --> Config Class Initialized
+INFO - 2017-12-20 00:49:10 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:49:10 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:49:10 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:49:10 --> URI Class Initialized
+INFO - 2017-12-20 00:49:10 --> Router Class Initialized
+INFO - 2017-12-20 00:49:10 --> Output Class Initialized
+INFO - 2017-12-20 00:49:10 --> Security Class Initialized
+DEBUG - 2017-12-20 00:49:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:49:10 --> Input Class Initialized
+INFO - 2017-12-20 00:49:10 --> Language Class Initialized
+ERROR - 2017-12-20 00:49:10 --> 404 Page Not Found: Fonts/roboto
+INFO - 2017-12-20 00:49:10 --> Config Class Initialized
+INFO - 2017-12-20 00:49:10 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:49:10 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:49:10 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:49:10 --> URI Class Initialized
+INFO - 2017-12-20 00:49:10 --> Router Class Initialized
+INFO - 2017-12-20 00:49:11 --> Output Class Initialized
+INFO - 2017-12-20 00:49:11 --> Security Class Initialized
+DEBUG - 2017-12-20 00:49:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:49:11 --> Input Class Initialized
+INFO - 2017-12-20 00:49:11 --> Language Class Initialized
+ERROR - 2017-12-20 00:49:11 --> 404 Page Not Found: Fonts/roboto
+INFO - 2017-12-20 00:49:26 --> Config Class Initialized
+INFO - 2017-12-20 00:49:26 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:49:26 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:49:26 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:49:26 --> URI Class Initialized
+DEBUG - 2017-12-20 00:49:26 --> No URI present. Default controller set.
+INFO - 2017-12-20 00:49:26 --> Router Class Initialized
+INFO - 2017-12-20 00:49:26 --> Output Class Initialized
+INFO - 2017-12-20 00:49:26 --> Security Class Initialized
+DEBUG - 2017-12-20 00:49:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:49:26 --> Input Class Initialized
+INFO - 2017-12-20 00:49:26 --> Language Class Initialized
+INFO - 2017-12-20 00:49:26 --> Loader Class Initialized
+INFO - 2017-12-20 00:49:26 --> Helper loaded: url_helper
+INFO - 2017-12-20 00:49:26 --> Helper loaded: global_helper
+INFO - 2017-12-20 00:49:26 --> Session: Class initialized using 'files' driver.
+INFO - 2017-12-20 00:49:26 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-12-20 00:49:26 --> Pagination Class Initialized
+INFO - 2017-12-20 00:49:26 --> Helper loaded: form_helper
+INFO - 2017-12-20 00:49:26 --> Form Validation Class Initialized
+INFO - 2017-12-20 00:49:26 --> Controller Class Initialized
+DEBUG - 2017-12-20 00:49:26 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-12-20 00:49:26 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-12-20 00:49:26 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/header.php
+INFO - 2017-12-20 00:49:26 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/user/signin.php
+INFO - 2017-12-20 00:49:26 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/footer.php
+INFO - 2017-12-20 00:49:26 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/admin_template.php
+INFO - 2017-12-20 00:49:26 --> Final output sent to browser
+DEBUG - 2017-12-20 00:49:26 --> Total execution time: 0.7306
+INFO - 2017-12-20 00:49:27 --> Config Class Initialized
+INFO - 2017-12-20 00:49:27 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:49:27 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:49:27 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:49:27 --> URI Class Initialized
+INFO - 2017-12-20 00:49:27 --> Router Class Initialized
+INFO - 2017-12-20 00:49:27 --> Output Class Initialized
+INFO - 2017-12-20 00:49:28 --> Security Class Initialized
+DEBUG - 2017-12-20 00:49:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:49:28 --> Input Class Initialized
+INFO - 2017-12-20 00:49:28 --> Language Class Initialized
+ERROR - 2017-12-20 00:49:28 --> 404 Page Not Found: Fonts/roboto
+INFO - 2017-12-20 00:49:28 --> Config Class Initialized
+INFO - 2017-12-20 00:49:28 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:49:28 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:49:28 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:49:28 --> URI Class Initialized
+INFO - 2017-12-20 00:49:28 --> Router Class Initialized
+INFO - 2017-12-20 00:49:28 --> Output Class Initialized
+INFO - 2017-12-20 00:49:28 --> Security Class Initialized
+DEBUG - 2017-12-20 00:49:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:49:28 --> Input Class Initialized
+INFO - 2017-12-20 00:49:28 --> Language Class Initialized
+ERROR - 2017-12-20 00:49:28 --> 404 Page Not Found: Fonts/roboto
+INFO - 2017-12-20 00:49:46 --> Config Class Initialized
+INFO - 2017-12-20 00:49:46 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:49:46 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:49:46 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:49:46 --> URI Class Initialized
+DEBUG - 2017-12-20 00:49:46 --> No URI present. Default controller set.
+INFO - 2017-12-20 00:49:46 --> Router Class Initialized
+INFO - 2017-12-20 00:49:46 --> Output Class Initialized
+INFO - 2017-12-20 00:49:46 --> Security Class Initialized
+DEBUG - 2017-12-20 00:49:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:49:46 --> Input Class Initialized
+INFO - 2017-12-20 00:49:46 --> Language Class Initialized
+INFO - 2017-12-20 00:49:46 --> Loader Class Initialized
+INFO - 2017-12-20 00:49:46 --> Helper loaded: url_helper
+INFO - 2017-12-20 00:49:46 --> Helper loaded: global_helper
+INFO - 2017-12-20 00:49:46 --> Session: Class initialized using 'files' driver.
+INFO - 2017-12-20 00:49:46 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-12-20 00:49:46 --> Pagination Class Initialized
+INFO - 2017-12-20 00:49:46 --> Helper loaded: form_helper
+INFO - 2017-12-20 00:49:46 --> Form Validation Class Initialized
+INFO - 2017-12-20 00:49:46 --> Controller Class Initialized
+DEBUG - 2017-12-20 00:49:46 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2017-12-20 00:49:47 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-12-20 00:49:47 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/header.php
+INFO - 2017-12-20 00:49:47 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/user/signin.php
+INFO - 2017-12-20 00:49:47 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/footer.php
+INFO - 2017-12-20 00:49:47 --> File loaded: C:\xampp\htdocs\muthupandi\createcv\application\views\admin/includes/admin_template.php
+INFO - 2017-12-20 00:49:47 --> Final output sent to browser
+DEBUG - 2017-12-20 00:49:47 --> Total execution time: 0.7035
+INFO - 2017-12-20 00:49:48 --> Config Class Initialized
+INFO - 2017-12-20 00:49:48 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:49:48 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:49:48 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:49:48 --> URI Class Initialized
+INFO - 2017-12-20 00:49:48 --> Router Class Initialized
+INFO - 2017-12-20 00:49:48 --> Output Class Initialized
+INFO - 2017-12-20 00:49:48 --> Security Class Initialized
+DEBUG - 2017-12-20 00:49:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:49:48 --> Input Class Initialized
+INFO - 2017-12-20 00:49:48 --> Language Class Initialized
+ERROR - 2017-12-20 00:49:48 --> 404 Page Not Found: Fonts/roboto
+INFO - 2017-12-20 00:49:48 --> Config Class Initialized
+INFO - 2017-12-20 00:49:48 --> Hooks Class Initialized
+DEBUG - 2017-12-20 00:49:48 --> UTF-8 Support Enabled
+INFO - 2017-12-20 00:49:48 --> Utf8 Class Initialized
+INFO - 2017-12-20 00:49:48 --> URI Class Initialized
+INFO - 2017-12-20 00:49:48 --> Router Class Initialized
+INFO - 2017-12-20 00:49:48 --> Output Class Initialized
+INFO - 2017-12-20 00:49:48 --> Security Class Initialized
+DEBUG - 2017-12-20 00:49:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-12-20 00:49:48 --> Input Class Initialized
+INFO - 2017-12-20 00:49:48 --> Language Class Initialized
+ERROR - 2017-12-20 00:49:48 --> 404 Page Not Found: Fonts/roboto

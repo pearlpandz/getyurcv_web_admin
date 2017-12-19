@@ -1,0 +1,27 @@
+.admin_login form {
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    top: 100px;
+}
+#head_logo {
+	text-align: center;
+}
+div#head_logo img {
+    height: 90px;
+    width: 80px;
+}
+.admin_login form input.valid:not([type]), 
+.admin_login form input.valid:not([type]):focus, 
+.admin_login form input[type=text].valid:not(.browser-default), 
+.admin_login form input[type=text].valid:not(.browser-default):focus, 
+.admin_login form input[type=password].valid:not(.browser-default), 
+.admin_login form input[type=password].valid:not(.browser-default):focus {
+	border-bottom: 1px solid #000 !important;
+	box-shadow: 0 1px 0 0 #000;
+}
+.admin_login form button,
+.admin_login form button.btn:hover, 
+.admin_login form button.btn-large:hover {
+	background: #000;
+}

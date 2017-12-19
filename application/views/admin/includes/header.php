@@ -10,10 +10,16 @@ $this->load->helper('url');
     
     <!-- Stylesheets included -->
     <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>css/common.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="<?php echo base_url(); ?>css/materialize.min.css">
 
+          
     <!-- jQuery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+    <!-- Compiled and minified JavaScript -->
+    <script src="<?php echo base_url(); ?>js/materialize.min.js"></script>
+    
     <!-- firebase -->
     <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
     <script src="<?php echo base_url();?>js/geofire.min_410.js"></script>

@@ -12,24 +12,32 @@ if( isset($message['message']) ) {
 <?php 
 }
 ?>
-<!-- included by me stylesheets-->
-<link href="<?php echo base_url(); ?>css/admin_login.css" rel="stylesheet">
+<!-- stylesheet included -->
+<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/admim_login.css">
 
 <div class="admin_login">
     <div class="container">
-        <div class="login-container">
-            <div id="output"></div>
-            <div class="avatar"></div>
-            <div class="form-box">
-                <form action="<?php echo base_url(); ?>admin/users/signin" method="post">
-                    <input name="user" type="text" placeholder="username">
-                    <input name="password" type="password" placeholder="password">
-                    <input name="firebase_user" type="hidden" id="firebase_user">
-                    <input name="firebase_password" type="hidden" id="firebase_password">
-                    <button class="btn btn-info btn-block login" type="submit">Login</button>
-                </form>
+        <form action="<?php echo base_url(); ?>admin/users/signin" method="post">
+            <div id="head_logo">
+                <img src="<?php echo base_url();?>/images/myStartUp_Logo.png">
             </div>
-        </div>  
+            <div class="row">
+                <div class="input-field col s12">
+                  <input name="user" id="user" type="text" class="validate">
+                  <label for="user">username</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                  <input name="password" id="password" type="password" class="validate">
+                  <label for="password">Password</label>
+                </div>
+            </div>
+            <input name="firebase_user" id="firebase_user" type="hidden">
+            <input name="firebase_password" id="firebase_password" type="hidden">
+            <button class="btn waves-effect waves-light login" type="submit">Submit
+            </button>
+        </form>
     </div>
 </div>
 
