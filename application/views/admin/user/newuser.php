@@ -10,8 +10,13 @@
 	  	</div>
 	  	<div class="form-group">
 		    <label for="image">profile pic</label>
-		    <progress id="uploader" value="0" max="100">0%</progress>
-		    <input type="file" name="image" id="image">
+		    <div id="dropbox"> 
+				<input type="file" id="fileElem" multiple accept="image/*" style="display:none" onchange="handleFiles(this.files)">  
+				<a href="#" id="fileSelect">Select some files</a>
+				<div class="progress-bar" id="progress-bar">
+				    <div class="progress" id="progress"></div>
+				</div>
+			</div>	    
 		    <input type="hidden" name="profilepic" id="profilepic">
 	  	</div>
 	  	<div class="form-group">
@@ -71,7 +76,13 @@
 	<form id="newActivity2" style="display: none;">
 	 	<div class="form-group">
             <label class="control-label" for="fields1">banner images</label>
-           	<input class="form-control" name="fields1[]" type="file" id="bannerImage" multiple />
+           	<div id="dropbox1"> 
+				<input type="file" id="fileElem1" multiple accept="image/*" style="display:none" onchange="handleFiles1(this.files)">  
+				<a href="#" id="fileSelect1">Select some files</a>
+				<div class="progress-bar" id="progress-bar">
+				    <div class="progress" id="progress"></div>
+				</div>
+			</div>           	
         </div>
          <div class="form-group">
             <label> </label>
@@ -87,8 +98,13 @@
         </div>
 	 	<div class="form-group">
             <label class="control-label" for="projectImage">cover image</label>
-           	<input class="form-control" name="projectImage" type="file" id="projectImage" />
-           	<input type="hidden" name="projectcoverimg" id="projectcoverimg">
+           	<div id="dropbox2"> 
+				<input type="file" id="fileElem2" multiple accept="image/*" style="display:none" onchange="handleFiles2(this.files)">  
+				<a href="#" id="fileSelect2">Select some files</a>
+				<div class="progress-bar" id="progress-bar">
+				    <div class="progress" id="progress"></div>
+				</div>
+			</div>
         </div>
         <div class="form-group">
             <label class="control-label" for="projectUrl">url</label>
@@ -143,6 +159,13 @@
 
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAom1PVwNn8gAvSl18fSKRI1Jlu-JOH5fQ&libraries=places"></script>
 <script src="<?php echo base_url(); ?>js/jquery.city-autocomplete.js" type="text/javascript"></script> 
+
+<!-- cloudinary plugins -->
+<script src='<?php echo base_url(); ?>js/cloudinary/jquery.ui.widget.js' type='text/javascript'></script>
+<script src='<?php echo base_url(); ?>js/cloudinary/jquery.iframe-transport.js' type='text/javascript'></script>
+<script src='<?php echo base_url(); ?>js/cloudinary/jquery.fileupload.js' type='text/javascript'></script>
+<script src='<?php echo base_url(); ?>js/cloudinary/jquery.cloudinary.js' type='text/javascript'></script>
+
 <script type="text/javascript">
 // auto suggesstion
 $('#location').keypress(function() {
@@ -214,72 +237,233 @@ var dbRef = firebase.database();
 
 
 // profile pic image upload in firebse
-var uploader = document.getElementById('uploader');
-var fileButton = document.getElementById('image');
-fileButton.addEventListener('change', function(e){
-	var file = e.target.files[0];
-	alert(file.name);
-	var storageRef = firebase.storage().ref('images/'+file.name);
-	var task = storageRef.put(file);
-	task.on('state_changed', function progress(snapshot) {
-		var percentage = (snapshot.bytesTransferred/snapshot.totalBytes)*100;
-		uploader.value = percentage;
-	}, function error(err) {
+const cloudName = 'dg1flfrcd';
+const unsignedUploadPreset = 'gq24j9uc';
 
-	},function complete() {
+// profile pic
+var fileSelect = document.getElementById("fileSelect"),
+  fileElem = document.getElementById("fileElem");
 
-	});
-	task.then((snapshot) => {
-	    $("#profilepic").val(snapshot.downloadURL);
-	});
-});  
+fileSelect.addEventListener("click", function(e) {
+  if (fileElem) {
+    fileElem.click();
+  }
+  e.preventDefault(); // prevent navigation to "#"
+}, false);
 
-//multiple banner image upload in firebse
-//Listen for file selection
-var fileURLs = []; // array to hold all file urls 
+// banners
+var fileSelect1 = document.getElementById("fileSelect1"),
+  fileElem1 = document.getElementById("fileElem1");
 
-var fileButton1 = document.getElementById('bannerImage');
-fileButton1.addEventListener('change', function(e){ 
-    //Get files
-    for (var i = 0; i < e.target.files.length; i++) {
-        var imageFile = e.target.files[i];
-        uploadImageAsPromise(imageFile);
-    }
-    alert("uploaded");
-});
+fileSelect1.addEventListener("click", function(e) {
+  if (fileElem1) {
+    fileElem1.click();
+  }
+  e.preventDefault(); // prevent navigation to "#"
+}, false);
 
-//Handle waiting to upload each file using promise
-function uploadImageAsPromise (imageFile) {
-    return new Promise(function (resolve, reject) {
-        var storageRef = firebase.storage().ref('banners/'+imageFile.name);
+// project
+var fileSelect2 = document.getElementById("fileSelect2"),
+  fileElem2 = document.getElementById("fileElem2");
 
-        //Upload file
-        var task = storageRef.put(imageFile);
+fileSelect2.addEventListener("click", function(e) {
+  if (fileElem2) {
+    fileElem2.click();
+  }
+  e.preventDefault(); // prevent navigation to "#"
+}, false);
 
-        //Update progress bar
-        task.on('state_changed',
-            function progress(snapshot){
-                var percentage = snapshot.bytesTransferred / snapshot.totalBytes * 100;
-                uploader.value = percentage;
-            },
-            function error(err){
-
-            },
-            function complete(){
-                var downloadURL = task.snapshot.downloadURL;
-            }
-        );
-        task.then((snapshot) => {
-	    	fileURLs.push(snapshot.downloadURL);
-		});
-    });
+// ************************ Drag and drop ***************** //
+function dragenter(e) {
+  e.stopPropagation();
+  e.preventDefault();
 }
+
+function dragover(e) {
+  e.stopPropagation();
+  e.preventDefault();
+}
+
+dropbox = document.getElementById("dropbox");
+dropbox.addEventListener("dragenter", dragenter, false);
+dropbox.addEventListener("dragover", dragover, false);
+dropbox.addEventListener("drop", drop, false);
+
+dropbox1 = document.getElementById("dropbox1");
+dropbox1.addEventListener("dragenter", dragenter, false);
+dropbox1.addEventListener("dragover", dragover, false);
+dropbox1.addEventListener("drop", drop, false);
+
+dropbox2 = document.getElementById("dropbox2");
+dropbox2.addEventListener("dragenter", dragenter, false);
+dropbox2.addEventListener("dragover", dragover, false);
+dropbox2.addEventListener("drop", drop, false);
+
+function drop(e) {
+  e.stopPropagation();
+  e.preventDefault();
+
+  var dt = e.dataTransfer;
+  var files = dt.files;
+
+  handleFiles(files);
+}
+
+var profilepic_new;
+
+
+var handleFiles = function(files) {
+  for (var i = 0; i < files.length; i++) {
+    uploadFile(files[i]); // call the function to upload the file
+  }
+};
+
+// *********** Upload file to Cloudinary ******************** //
+function uploadFile(file) {
+  var url = `https://api.cloudinary.com/v1_1/${cloudName}/upload`;
+  var xhr = new XMLHttpRequest();
+  var fd = new FormData();
+  xhr.open('POST', url, true);
+  xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+
+  // Reset the upload progress bar
+   document.getElementById('progress').style.width = 0;
+  
+  // Update progress (can be used to show progress indicator)
+  xhr.upload.addEventListener("progress", function(e) {
+    var progress = Math.round((e.loaded * 100.0) / e.total);
+    document.getElementById('progress').style.width = progress + "%";
+
+    // console.log(`fileuploadprogress data.loaded: ${e.loaded},
+  // data.total: ${e.total}`);
+  });
+
+  xhr.onreadystatechange = function(e) {
+    if (xhr.readyState == 4 && xhr.status == 200) {
+      // File uploaded successfully
+      var response = JSON.parse(xhr.responseText);
+      profilepic_new = response.secure_url;
+      console.log(profilepic_new);
+
+      // https://res.cloudinary.com/cloudName/image/upload/v1483481128/public_id.jpg
+      var url = response.secure_url;
+      // Create a thumbnail of the uploaded image, with 150px width
+      var tokens = url.split('/');
+      tokens.splice(-2, 0, 'w_150,c_scale');
+    }
+  };
+
+  fd.append('upload_preset', unsignedUploadPreset);
+  fd.append('tags', 'browser_upload'); // Optional - add tag for image admin in Cloudinary
+  fd.append('file', file);
+  xhr.send(fd);
+
+}
+
+var banners_array = [];
+var handleFiles1 = function(files) {
+  for (var i = 0; i < files.length; i++) {
+    uploadFile1(files[i]); // call the function to upload the file
+  }
+  console.log(banners_array);
+};
+
+// *********** Upload file to Cloudinary ******************** //
+function uploadFile1(file) {
+  var url = `https://api.cloudinary.com/v1_1/${cloudName}/upload`;
+  var xhr = new XMLHttpRequest();
+  var fd = new FormData();
+  xhr.open('POST', url, true);
+  xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+
+  // Reset the upload progress bar
+   document.getElementById('progress').style.width = 0;
+  
+  // Update progress (can be used to show progress indicator)
+  xhr.upload.addEventListener("progress", function(e) {
+    var progress = Math.round((e.loaded * 100.0) / e.total);
+    document.getElementById('progress').style.width = progress + "%";
+
+    // console.log(`fileuploadprogress data.loaded: ${e.loaded},
+  // data.total: ${e.total}`);
+  });
+
+  xhr.onreadystatechange = function(e) {
+    if (xhr.readyState == 4 && xhr.status == 200) {
+      // File uploaded successfully
+      var response = JSON.parse(xhr.responseText);
+      banners_array.push(response.secure_url);
+
+      // https://res.cloudinary.com/cloudName/image/upload/v1483481128/public_id.jpg
+      var url = response.secure_url;
+      // Create a thumbnail of the uploaded image, with 150px width
+      var tokens = url.split('/');
+      tokens.splice(-2, 0, 'w_150,c_scale');
+    }
+  };
+
+  fd.append('upload_preset', unsignedUploadPreset);
+  fd.append('tags', 'browser_upload'); // Optional - add tag for image admin in Cloudinary
+  fd.append('file', file);
+  xhr.send(fd);
+
+}
+
+var coverimg_new;
+var handleFiles2 = function(files) {
+  for (var i = 0; i < files.length; i++) {
+    uploadFile2(files[i]); // call the function to upload the file
+  }
+
+};
+// *********** Upload file to Cloudinary ******************** //
+function uploadFile2(file) {
+  var url = `https://api.cloudinary.com/v1_1/${cloudName}/upload`;
+  var xhr = new XMLHttpRequest();
+  var fd = new FormData();
+  xhr.open('POST', url, true);
+  xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+
+  // Reset the upload progress bar
+   document.getElementById('progress').style.width = 0;
+  
+  // Update progress (can be used to show progress indicator)
+  xhr.upload.addEventListener("progress", function(e) {
+    var progress = Math.round((e.loaded * 100.0) / e.total);
+    document.getElementById('progress').style.width = progress + "%";
+
+    // console.log(`fileuploadprogress data.loaded: ${e.loaded},
+  // data.total: ${e.total}`);
+  });
+
+  xhr.onreadystatechange = function(e) {
+    if (xhr.readyState == 4 && xhr.status == 200) {
+      // File uploaded successfully
+      var response = JSON.parse(xhr.responseText);
+      coverimg_new = response.secure_url;
+    	console.log(coverimg_new);
+
+      // https://res.cloudinary.com/cloudName/image/upload/v1483481128/public_id.jpg
+      var url = response.secure_url;
+      // Create a thumbnail of the uploaded image, with 150px width
+      var tokens = url.split('/');
+      tokens.splice(-2, 0, 'w_150,c_scale');
+    }
+  };
+
+  fd.append('upload_preset', unsignedUploadPreset);
+  fd.append('tags', 'browser_upload'); // Optional - add tag for image admin in Cloudinary
+  fd.append('file', file);
+  xhr.send(fd);
+
+}
+
 
 $('#newActivity #submit').click(function(e) {
 	// get values
 	var username = $("#name").val();
 	var dob = $("#dob").val();
-	var profilepic = $("#profilepic").val();
+	var profilepic = profilepic_new;
 	var email = $("#email").val();
 	var mobile = $("#mobile").val();
 	var location = $("#location").val();
@@ -343,7 +527,7 @@ $('#newActivity2 #submit').click(function(e) {
 
 	// firebase update function
 	contactsRef.update({ 
-		'banners': fileURLs
+		'banners': banners_array
 	});
 
 	// return fuction of update function
@@ -354,32 +538,12 @@ $('#newActivity2 #submit').click(function(e) {
 });
 
 
-//project cover image upload in firebse
-var fileButton3 = document.getElementById('projectImage');
-fileButton3.addEventListener('change', function(e){
-	var file = e.target.files[0];
-	alert(file.name);
-	var storageRef = firebase.storage().ref('project/'+file.name);
-	var task = storageRef.put(file);
-	task.on('state_changed', function progress(snapshot) {
-		var percentage = (snapshot.bytesTransferred/snapshot.totalBytes)*100;
-		uploader.value = percentage;
-	}, function error(err) {
-
-	},function complete() {
-
-	});
-	task.then((snapshot) => {
-	    $("#projectcoverimg").val(snapshot.downloadURL);
-	});
-});
-
 // newActivity3
 $('#newActivity3 #continue').click(function(e) {
 	// get values
 	var username = $("#name").val();
 	var title = $("#projectTitle").val();
-	var coverimg = $("#projectcoverimg").val();
+	var coverimg = coverimg_new;
 	var url = $("#projectUrl").val();
 
 	// declared firebase data inserting place
