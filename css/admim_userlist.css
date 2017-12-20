@@ -1,0 +1,45 @@
+.userlist_table {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.userlist_table h4 {
+    background: #000;
+    padding: 15px;
+    margin: 0;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+ul#userlist {
+	margin: 0;
+	display: inline-block;
+	width: 100%;
+}
+ul#userlist li {
+	display: inline-block;
+	width: 100%;
+}
+ul#userlist li a {
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #000;
+    border-top: 0;
+    transition: 0.3s;
+    color: #000;
+}
+ul#userlist li:first-child a { 
+	border-top: 1px solid #000;
+}
+ul#userlist li:hover a{
+	background: #000;
+	color: #fff;
+	transition: 0.3s;
+}
+ul#userlist li a span {
+	text-transform: uppercase;
+}
+ul#userlist li a span:first-child {
+	padding-right: 10px;
+}
