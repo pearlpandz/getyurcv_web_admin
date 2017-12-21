@@ -112,12 +112,43 @@
         </div>
          <div class="form-group">
             <label> </label>
+            <a id="addmore">addmore</a>
 			<a id="continue">continue</a>
-			<a id="finish">finish</a>	
 		</div>
 	</form>
 
-	<div id="newActivity4" style="display: none;">
+  <form id="newActivity4" style="display: none;">
+    <div class="row">
+      <div class="input-field col s12">
+        <input name="facebook" id="facebook" type="text" class="validate">
+        <label for="facebook">facebook</label>
+      </div>
+    </div>
+    <div class="row">
+        <div class="input-field col s12">
+          <input name="twitter" id="twitter" type="text" class="validate">
+          <label for="twitter">twitter</label>
+        </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        <input name="linkedin" id="linkedin" type="text" class="validate">
+        <label for="linkedin">linkedin</label>
+      </div>
+    </div>
+    <div class="row">
+        <div class="input-field col s12">
+          <input name="whatsapp" id="whatsapp" type="text" class="validate">
+          <label for="whatsapp">whatsapp</label>
+        </div>
+    </div>
+     <div class="form-group">
+            <label> </label>
+      <a id="finish">finish</a>
+    </div>
+  </form>
+
+	<div id="newActivity5" style="display: none;">
 		<p>You successfully create your profile</p>
 		<a href="<?php echo base_url(); ?>admin/users/userlist">go to userlist</a>
 	</div>
@@ -158,7 +189,7 @@
 </style>
 
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAom1PVwNn8gAvSl18fSKRI1Jlu-JOH5fQ&libraries=places"></script>
-<script src="<?php echo base_url(); ?>js/jquery.city-autocomplete.js" type="text/javascript"></script> 
+<!-- <script src="<?php echo base_url(); ?>js/jquery.city-autocomplete.js" type="text/javascript"></script>  -->
 
 <!-- cloudinary plugins -->
 <script src='<?php echo base_url(); ?>js/cloudinary/jquery.ui.widget.js' type='text/javascript'></script>
@@ -539,7 +570,7 @@ $('#newActivity2 #submit').click(function(e) {
 
 
 // newActivity3
-$('#newActivity3 #continue').click(function(e) {
+$('#newActivity3 #addmore').click(function(e) {
 	// get values
 	var username = $("#name").val();
 	var title = $("#projectTitle").val();
@@ -561,12 +592,60 @@ $('#newActivity3 #continue').click(function(e) {
 		$("#projectcoverimg").val('');
 		$("#projectUrl").val('');
 		$("#projectImage").val('');
-		$("#newActivity3").hide();
-		$("#newActivity4").show();
 	});
 });
 
-$('#newActivity3 #finish').click(function(e) {
-	$("#newActivity4").show();
+$('#newActivity3 #continue').click(function(e) {
+  // get values
+  var username = $("#name").val();
+  var title = $("#projectTitle").val();
+  var coverimg = coverimg_new;
+  var url = $("#projectUrl").val();
+
+  // declared firebase data inserting place
+  var contactsRef = dbRef.ref('users/'+username+'/projects');
+
+  // firebase update function
+  contactsRef.push({ 
+    'title': title,
+    'coverimg': coverimg,
+    'url': url,
+  });
+  // return fuction of update function
+  contactsRef.on('value', function(snap) {
+    $("#projectTitle").val('');
+    $("#projectcoverimg").val('');
+    $("#projectUrl").val('');
+    $("#projectImage").val('');
+    $("#newActivity3").hide();
+    $("#newActivity4").show();
+  });
+  
+});
+
+// newActivity3
+$('#newActivity4 #finish').click(function(e) {
+  // get values
+  var username = $("#name").val();
+  var facebook = $("#facebook").val();
+  var twitter = $("#twitter").val();
+  var linkedin = $("#linkedin").val();
+  var whatsapp = $("#whatsapp").val();
+
+  // declared firebase data inserting place
+  var contactsRef = dbRef.ref('users/'+username+'/social');
+
+  // firebase update function
+  contactsRef.update({ 
+    'facebook': facebook,
+    'twitter': twitter,
+    'linkedin': linkedin,
+    'whatsapp': whatsapp,
+  });
+  // return fuction of update function
+  contactsRef.on('value', function(snap) {
+    $("#newActivity4").hide();
+    $("#newActivity5").show();
+  });
 });
 </script>
