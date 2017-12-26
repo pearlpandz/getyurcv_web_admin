@@ -1,123 +1,188 @@
-<div id="adduser">
+<div class="row">
+<div id="adduser" class="col s12">
 	<form id="newActivity">
-		<div class="form-group">
-		    <label for="name">name</label>
-		    <input type="text" name="name" id="name">
-	  	</div>
-	  	<div class="form-group">
-		    <label for="dob">d.o.b</label>
-		    <input type="text" name="dob" id="dob">
-	  	</div>
-	  	<div class="form-group">
-		    <label for="image">profile pic</label>
-		    <div id="dropbox"> 
-				<input type="file" id="fileElem" multiple accept="image/*" style="display:none" onchange="handleFiles(this.files)">  
-				<a href="#" id="fileSelect">Select some files</a>
-				<div class="progress-bar" id="progress-bar">
-				    <div class="progress" id="progress"></div>
-				</div>
-			</div>	    
-		    <input type="hidden" name="profilepic" id="profilepic">
-	  	</div>
-	  	<div class="form-group">
-		    <label for="email">email</label>
-		    <input type="email" name="email" id="email">
-	  	</div>
-	  	<div class="form-group">
-		    <label for="mobile">mobile</label>
-		    <input type="number" name="mobile" id="mobile">
-	  	</div>
-	  	<div class="form-group">
-		    <label for="location">location</label>
-		    <input type="text" name="location" id="location">
-		    <input type="hidden" name="lat" id="lat">
-		    <input type="hidden" name="lang" id="lang">
-	  	</div>
-	  	<div class="form-group">
-		    <label for="Professional">Professional</label>
-		    <input type="text" name="Professional" id="Professional">
-	  	</div>
-	  	<div class="form-group">
-		    <label for="qualification">qualification</label>
-		    <input type="text" name="qualification" id="qualification">
-	  	</div>
-	  	<div class="form-group">
-		    <label for="description">description</label>
-		    <textarea name="description" id="description"></textarea>
-	  	</div>
-        <div class="form-group">
-            <label> </label>
-			<a id="submit">continue</a>
-		</div>
+      <div class="col s12">
+        <h4>add your details</h4>
+      </div>
+      <div class="row">
+          <div class="input-field col s12">
+            <input name="name" id="name" type="text" class="validate">
+            <label for="name">username</label>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col s12">
+            <label for="dob">Birthday</label>
+            <input id="dob" type="date" name="dob" class="datepicker">
+          </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+    	  	<div id="dropbox" class="file-field input-field">
+            <div class="btn">
+              <span id="fileSelect">pick your profile picture</span>
+              <input type="file" id="fileElem" accept="image/*" style="display:none" onchange="handleFiles(this.files)">  
+              <input type="hidden" name="profilepic" id="profilepic">
+            </div>
+            <div class="file-path-wrapper">
+              <input class="file-path validate"  type="text">
+            </div>
+          </div>
+          <div class="progress-bar" id="progress-bar">
+            <div class="progress" id="progress"></div>
+          </div>
+        </div>
+      </div>
+	  	<div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="mobile" type="number" class="validate">
+          <label for="mobile">mobile</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input type="text" name="location" id="location" class="validate">
+          <input type="hidden" name="lat" id="lat">
+          <input type="hidden" name="lang" id="lang">
+          <label for="location">location</label>
+        </div>
+      </div>
+	  	<div class="row">
+        <div class="input-field col s12">
+          <input id="Professional" type="text" name="Professional" class="validate">
+          <label for="Professional">Professional</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="qualification" type="text" name="qualification" class="validate">
+          <label for="qualification">qualification</label>
+        </div>
+      </div>
+	  	<div class="row">
+        <div class="input-field col s12">
+          <textarea id="description" name="description" class="materialize-textarea" data-length="120"></textarea>
+          <label for="description">description</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12 right-align">
+          <label> </label>
+          <a id="submit" class="waves-effect waves-light btn">continue<i class="material-icons right">send</i></a>
+		    </div>
+      </div>
 	</form>
 
 	<!-- newActivity1 -->
-	<form id="newActivity1" style="display: none;">
-	  	<div class="form-group">
-            <label class="control-label" for="fields">skills</label>
-            <div class="controls">
-                <div class="entry input-group col-xs-3">
-                    <input class="form-control" name="fields[]" type="text" placeholder="Type something" />
-                	<span class="input-group-btn">
-                        <button class="btn btn-success btn-add" type="button">
-                            add
-                        </button>
-                    </span>
-                </div>
-            </div>
+	<form id="newActivity1"  style="display: none;">
+      <div class="col s12">
+        <h4>add your skills</h4>
+      </div>
+      <div class="row">
+        <div class="controls">
+          <div class="input-field col s12 entry">
+            <input name="fields[]" id="fields" type="text" class="validate">
+            <span class="input-group-btn">
+              <button class="btn-floating btn-large waves-effect waves-light black btn-add" type="button">
+                <i class="material-icons">add</i>
+              </button>
+            </span>
+            <label for="fields">enter your skills</label>
+          </div>
         </div>
-        <div class="form-group">
-            <label> </label>
-			<a id="submit">continue</a>
-		</div>
+      </div>
+            
+      <div class="row">
+        <div class="input-field col s12 right-align">
+          <label> </label>
+          <a id="submit" class="waves-effect waves-light btn">continue<i class="material-icons right">send</i></a>
+        </div>
+      </div>
 	</form>
 
 	<!-- newActivity2 -->
-	<form id="newActivity2" style="display: none;">
-	 	<div class="form-group">
-            <label class="control-label" for="fields1">banner images</label>
-           	<div id="dropbox1"> 
-				<input type="file" id="fileElem1" multiple accept="image/*" style="display:none" onchange="handleFiles1(this.files)">  
-				<a href="#" id="fileSelect1">Select some files</a>
-				<div class="progress-bar" id="progress-bar">
-				    <div class="progress" id="progress"></div>
-				</div>
-			</div>           	
+	<form id="newActivity2"  style="display: none;">
+    <div class="col s12">
+      <h4>add homescreen banners</h4>
+    </div>
+    <div class="row">
+      <div class="col s12">
+          <div id="dropbox1" class="file-field input-field">
+          <div class="btn">
+            <span id="fileSelect1">upload BG's</span>
+            <input type="file" id="fileElem1" multiple accept="image/*" style="display:none" onchange="handleFiles1(this.files)">  
+            <input type="hidden" name="profilepic" id="profilepic">
+          </div>
+          <div class="file-path-wrapper">
+            <input class="file-path validate"  type="text">
+          </div>
         </div>
-         <div class="form-group">
-            <label> </label>
-			<a id="submit">continue</a>
-		</div>
+        <div class="progress-bar" id="progress-bar1">
+          <div class="progress" id="progress1"></div>
+        </div>
+      </div>
+    </div> 
+    <div class="row">
+      <div class="input-field col s12 right-align">
+        <label> </label>
+        <a id="submit" class="waves-effect waves-light btn">continue<i class="material-icons right">send</i></a>
+      </div>
+    </div>
 	</form>
 
-	<!-- newActivity2 -->
-	<form id="newActivity3" style="display: none;">
-		<div class="form-group">
-            <label class="control-label" for="projectTitle">title</label>
-           	<input class="form-control" name="projectTitle" type="text" id="projectTitle" />
+	<!-- newActivity3 -->
+	<form id="newActivity3"  style="display: none;">
+    <div class="col s12">
+      <h4>add your projects</h4>
+    </div>
+		<div class="row">
+      <div class="input-field col s12">
+          <input class="form-control" name="projectTitle" type="text" id="projectTitle" />
+          <label class="control-label" for="projectTitle">project title</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+          <div id="dropbox2" class="file-field input-field">
+          <div class="btn">
+            <span id="fileSelect2">project cover image</span>
+            <input type="file" id="fileElem2" accept="image/*" style="display:none" onchange="handleFiles2(this.files)">  
+            <input type="hidden" name="profilepic" id="profilepic"> 
+          </div>
+          <div class="file-path-wrapper">
+            <input class="file-path validate" id="filepath"  type="text">
+          </div>
         </div>
-	 	<div class="form-group">
-            <label class="control-label" for="projectImage">cover image</label>
-           	<div id="dropbox2"> 
-				<input type="file" id="fileElem2" multiple accept="image/*" style="display:none" onchange="handleFiles2(this.files)">  
-				<a href="#" id="fileSelect2">Select some files</a>
-				<div class="progress-bar" id="progress-bar">
-				    <div class="progress" id="progress"></div>
-				</div>
-			</div>
+        <div class="progress-bar" id="progress-bar2">
+          <div class="progress" id="progress2"></div>
         </div>
-        <div class="form-group">
-            <label class="control-label" for="projectUrl">url</label>
-           	<input class="form-control" name="projectUrl" type="text" id="projectUrl" />
+      </div>
+    </div>   
+    <div class="row">
+      <div class="input-field col s12">
+          <input class="form-control" name="projectUrl" type="text" id="projectUrl" />
+          <label class="control-label" for="projectUrl">project url</label>
+      </div>
+    </div>
+      <div class="row">
+        <div class="input-field col s12 right-align">
+          <label> </label>
+          <a id="addmore" class="waves-effect waves-light btn">addmore<i class="material-icons right">add</i></a>
+          <a id="continue" class="waves-effect waves-light btn">continue<i class="material-icons right">send</i></a>
         </div>
-         <div class="form-group">
-            <label> </label>
-            <a id="addmore">addmore</a>
-			<a id="continue">continue</a>
-		</div>
+      </div>
 	</form>
 
-  <form id="newActivity4" style="display: none;">
+  <form id="newActivity4"  style="display: none;">
+    <div class="col s12">
+      <h4>add your social links</h4>
+    </div>
     <div class="row">
       <div class="input-field col s12">
         <input name="facebook" id="facebook" type="text" class="validate">
@@ -142,51 +207,20 @@
           <label for="whatsapp">whatsapp</label>
         </div>
     </div>
-     <div class="form-group">
-            <label> </label>
-      <a id="finish">finish</a>
+    <div class="row">
+      <div class="input-field col s12 right-align">
+        <label> </label>
+        <a id="finish" class="waves-effect waves-light btn">finish<i class="material-icons right">send</i></a>
+      </div>
     </div>
   </form>
 
-	<div id="newActivity5" style="display: none;">
-		<p>You successfully create your profile</p>
-		<a href="<?php echo base_url(); ?>admin/users/userlist">go to userlist</a>
+	<div id="newActivity5" class="center-align"  style="display: none;">
+		<h4>You successfully create your profile</h4>
+		<a class="waves-effect waves-light btn" href="<?php echo base_url(); ?>admin/users/userlist"><i class="material-icons left">wc</i> go to userlist</a>
 	</div>
 </div>
-
-<style type="text/css">
-	#newActivity {
-	    width: 550px;
-	    display: inline-block;
-	}
-	#newActivity .form-group {
-		display: inline-block;
-		width: 100%;
-		margin-bottom: 15px;
-	}
-	#newActivity h4 {
-		display: inline-block;
-		width: 100%;
-	}
-	#newActivity input {
-	    float: right;
-	    width: 300px;
-	    display: inline-block;
-	}
-	#newActivity textarea {
-		width: 300px;
-		display: inline-block;
-		float: right;
-	}
-	#newActivity label {
-	    display: inline-block;
-	    float: left;
-	    width: 200px;
-	}
-	#newActivity input#submit {
-	    width: 305px;
-	}
-</style>
+</div>
 
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAom1PVwNn8gAvSl18fSKRI1Jlu-JOH5fQ&libraries=places"></script>
 <!-- <script src="<?php echo base_url(); ?>js/jquery.city-autocomplete.js" type="text/javascript"></script>  -->
@@ -198,6 +232,19 @@
 <script src='<?php echo base_url(); ?>js/cloudinary/jquery.cloudinary.js' type='text/javascript'></script>
 
 <script type="text/javascript">
+// materialize datepicker
+var d = new Date();
+d.setFullYear( d.getFullYear() - 100 );
+$('.datepicker').pickadate(
+{
+   selectMonths: true,
+    selectYears: true,
+   min: d,
+    max: new Date()
+});
+
+
+
 // auto suggesstion
 $('#location').keypress(function() {
     var input = document.getElementById('location');
@@ -227,7 +274,7 @@ $(document).on('click', '.btn-add', function(e) {
     controlForm.find('.entry:not(:last) .btn-add')
         .removeClass('btn-add').addClass('btn-remove')
         .removeClass('btn-success').addClass('btn-danger')
-        .html('remove');
+        .html('-');
 }).on('click', '.btn-remove', function(e) {
 	$(this).parents('.entry:first').remove();
 	e.preventDefault();
@@ -246,7 +293,7 @@ $(document).on('click', '.btn-add', function(e) {
     controlForm.find('.entry1:not(:last) .btn-add')
         .removeClass('btn-add').addClass('btn-remove')
         .removeClass('btn-success').addClass('btn-danger')
-        .html('remove');
+        .html('-');
 }).on('click', '.btn-remove', function(e) {
 	$(this).parents('.entry1:first').remove();
 	e.preventDefault();
@@ -364,7 +411,7 @@ function uploadFile(file) {
   xhr.upload.addEventListener("progress", function(e) {
     var progress = Math.round((e.loaded * 100.0) / e.total);
     document.getElementById('progress').style.width = progress + "%";
-
+    document.getElementById('progress').style.background= "green";
     // console.log(`fileuploadprogress data.loaded: ${e.loaded},
   // data.total: ${e.total}`);
   });
@@ -407,15 +454,15 @@ function uploadFile1(file) {
   xhr.open('POST', url, true);
   xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
 
-  // Reset the upload progress bar
-   document.getElementById('progress').style.width = 0;
+  // Reset the upload progress1 bar
+   document.getElementById('progress1').style.width = 0;
   
-  // Update progress (can be used to show progress indicator)
+  // Update progress1 (can be used to show progress1 indicator)
   xhr.upload.addEventListener("progress", function(e) {
-    var progress = Math.round((e.loaded * 100.0) / e.total);
-    document.getElementById('progress').style.width = progress + "%";
-
-    // console.log(`fileuploadprogress data.loaded: ${e.loaded},
+    var progress1 = Math.round((e.loaded * 100.0) / e.total);
+    document.getElementById('progress1').style.width = progress1 + "%";
+    document.getElementById('progress1').style.background= "green";
+    // console.log(`fileuploadprogress1 data.loaded: ${e.loaded},
   // data.total: ${e.total}`);
   });
 
@@ -455,14 +502,14 @@ function uploadFile2(file) {
   xhr.open('POST', url, true);
   xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
 
-  // Reset the upload progress bar
-   document.getElementById('progress').style.width = 0;
+  // Reset the upload progress2 bar
+   document.getElementById('progress2').style.width = 0;
   
-  // Update progress (can be used to show progress indicator)
+  // Update progress2 (can be used to show progress indicator)
   xhr.upload.addEventListener("progress", function(e) {
-    var progress = Math.round((e.loaded * 100.0) / e.total);
-    document.getElementById('progress').style.width = progress + "%";
-
+    var progress2 = Math.round((e.loaded * 100.0) / e.total);
+    document.getElementById('progress2').style.width = progress2 + "%";
+    document.getElementById('progress2').style.background= "green";
     // console.log(`fileuploadprogress data.loaded: ${e.loaded},
   // data.total: ${e.total}`);
   });
@@ -524,8 +571,12 @@ $('#newActivity #submit').click(function(e) {
 
 	// return fuction of update function
 	contactsRef.on('value', function(snap) {
-	    $("#newActivity").hide();
-		$("#newActivity1").show();
+	  $("#newActivity").hide();
+    $("#newActivity1").show();
+    $("#newActivity2").hide();
+    $("#newActivity3").hide();
+    $("#newActivity4").hide();
+    $("#newActivity5").hide();
 	});
 });
 
@@ -544,8 +595,12 @@ $('#newActivity1 #submit').click(function(e) {
 
 	// return fuction of update function
 	contactsRef.on('value', function(snap) {
-	    $("#newActivity1").hide();
-		$("#newActivity2").show();
+	  $("#newActivity").hide();
+    $("#newActivity1").hide();
+    $("#newActivity2").show();
+    $("#newActivity3").hide();
+    $("#newActivity4").hide();
+    $("#newActivity5").hide();
 	});
 });
 
@@ -563,8 +618,12 @@ $('#newActivity2 #submit').click(function(e) {
 
 	// return fuction of update function
 	contactsRef.on('value', function(snap) {
-	    $("#newActivity2").hide();
-		$("#newActivity3").show();
+	  $("#newActivity").hide();
+    $("#newActivity1").hide();
+    $("#newActivity2").hide();
+    $("#newActivity3").show();
+    $("#newActivity4").hide();
+    $("#newActivity5").hide();
 	});
 });
 
@@ -591,6 +650,7 @@ $('#newActivity3 #addmore').click(function(e) {
 		$("#projectTitle").val('');
 		$("#projectcoverimg").val('');
 		$("#projectUrl").val('');
+    $("#filepath").val('');
 		$("#projectImage").val('');
 	});
 });
@@ -617,13 +677,19 @@ $('#newActivity3 #continue').click(function(e) {
     $("#projectcoverimg").val('');
     $("#projectUrl").val('');
     $("#projectImage").val('');
+      
+    $("#newActivity").hide();
+    $("#newActivity1").hide();
+    $("#newActivity2").hide();
     $("#newActivity3").hide();
     $("#newActivity4").show();
+    $("#newActivity5").hide();
+
   });
   
 });
 
-// newActivity3
+// newActivity4
 $('#newActivity4 #finish').click(function(e) {
   // get values
   var username = $("#name").val();
@@ -644,8 +710,31 @@ $('#newActivity4 #finish').click(function(e) {
   });
   // return fuction of update function
   contactsRef.on('value', function(snap) {
+    $("#newActivity").hide();
+    $("#newActivity1").hide();
+    $("#newActivity2").hide();
+    $("#newActivity3").hide();
     $("#newActivity4").hide();
     $("#newActivity5").show();
   });
 });
 </script>
+
+
+<style type="text/css">
+  #fields {
+    width: 80%;
+  }
+  #adduser h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0 0 0;
+  }
+  .btn, .btn-large {
+    background: #5a5a5a;
+  }
+  .progress {
+    background: transparent;
+  }
+</style>

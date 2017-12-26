@@ -10,8 +10,9 @@ $this->load->helper('url');
     
     <!-- Stylesheets included -->
     <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>css/common.css">
-    <!-- Compiled and minified CSS -->
+    <!-- Compiled and minified materialize CSS -->
     <link rel="stylesheet" href="<?php echo base_url(); ?>css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
           
     <!-- jQuery library -->
