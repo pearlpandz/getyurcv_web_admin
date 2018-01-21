@@ -1,1 +1,0 @@
-# getyurcv_web_admin
